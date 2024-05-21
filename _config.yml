@@ -100,12 +100,28 @@ content:
     content:
       - layout: left
         title: CPTS
-        caption: 04/30/2024
+        caption: 
         sub_title: Certified Penetration Testing Specialist
         quote: >
           A highly hands-on certification that assesses the candidates' penetration testing skills
         description: | # this will include new lines to allow paragraphs
           Hack the Box Certified Penetration Testing Specialist certification holders will possess technical competency in the ethical hacking and penetration testing domains at an intermediate level. They will also be able to assess the risk at which an infrastructure is exposed and compose a commercial-grade as well as actionable report.
+      - layout: left
+        title: eCPPTvs
+        caption: 
+        sub_title: eLearnSecurity Certified Professional Penetration Tester
+        quote: >
+          A practical, hands-on certification exam designed for professional Penetration Testers and Ethical Hackers.
+        description: | # this will include new lines to allow paragraphs
+          The eCPPTv2 certification exam assesses and validates that the individual has the knowledge, skills, and abilities required to fulfill the role of a modern Penetration Tester.
+      - layout: left
+        title: eCPPTvs
+        caption: 
+        sub_title: eLearnSecurity Certified Professional Penetration Tester
+        quote: >
+          A practical, hands-on certification exam designed for professional Penetration Testers and Ethical Hackers.
+        description: | # this will include new lines to allow paragraphs
+          The eCPPTv2 certification exam assesses and validates that the individual has the knowledge, skills, and abilities required to fulfill the role of a modern Penetration Tester.
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
