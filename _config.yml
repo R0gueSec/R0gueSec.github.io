@@ -122,17 +122,22 @@ content:
           A hands-on, entry-level Red Team certification that simulates skills utilized during real-world engagements.
         description: | # this will include new lines to allow paragraphs
           The eJPT certification exam covers Assessment Methodologies, Host and Network Auditing, Host and Network Penetration Testing, and Web Application Penetration Testing.
+      - layout: left
+        title: Learn Python 3
+        caption: 
+        sub_title: 
+        quote: >
+          Learn the basics of Python 3
+        description: | # this will include new lines to allow paragraphs
+          Learn Python 3 from Codecademy teaches the basics of Python 3, one of the most powerful, versatile, and in-demand programming languages today.
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
+      Alongside my interests in penetration testing, some of my other interests and hobbies are:
+      - Retrowave Music
       - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      - Bitcoin
+      - Adobe Photoshop
 
 # Footer
 footer_show_references: true
