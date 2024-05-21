@@ -48,7 +48,7 @@ github_username:  R0gueSec
 # about_title: About Me
 about_profile_image: images/Cyclops-cropped.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I go by the name RogueSec and I'm a Penetration Tester. After completing the Certified Penetration Tester (CPTS) certification from Hack the Box, I decided to showcase all my accomplishments and work so far on one page. 
+  Hi, RogueSec is the name and Penetration Testing is my game. After completing the Certified Penetration Tester (CPTS) certification from Hack the Box, I decided to showcase all my accomplishments and work so far on one page. 
 
 content:
   - title: Projects # Title for the section
@@ -99,15 +99,13 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: CPTS
+        caption: 04/30/2024
+        sub_title: Certified Penetration Testing Specialist from Hack the Box
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          A highly hands-on certification that assesses the candidates' penetration testing skills
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that I have taken through my career such as teamwork and working to tight deadlines. I thoroughly enjoyed my time at university and learnt a lot about a healthy work-life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          HTB Certified Penetration Testing Specialist certification holders will possess technical competency in the ethical hacking and penetration testing domains at an intermediate level. They will also be able to assess the risk at which an infrastructure is exposed and compose a commercial-grade as well as actionable report.
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
