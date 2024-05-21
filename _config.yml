@@ -101,7 +101,7 @@ content:
       - layout: left
         title: CPTS
         caption: 04/30/2024
-        sub_title: Certified Penetration Testing Specialist from Hack the Box
+        sub_title: HTB Certified Penetration Testing Specialist
         quote: >
           A highly hands-on certification that assesses the candidates' penetration testing skills
         description: | # this will include new lines to allow paragraphs
