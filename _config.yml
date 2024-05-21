@@ -107,7 +107,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Hack the Box Certified Penetration Testing Specialist certification holders will possess technical competency in the ethical hacking and penetration testing domains at an intermediate level. They will also be able to assess the risk at which an infrastructure is exposed and compose a commercial-grade as well as actionable report.
       - layout: left
-        title: eCPPTvs
+        title: eCPPTv2
         caption: 
         sub_title: eLearnSecurity Certified Professional Penetration Tester
         quote: >
