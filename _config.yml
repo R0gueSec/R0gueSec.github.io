@@ -48,7 +48,7 @@ github_username:  R0gueSec
 # about_title: About Me
 about_profile_image: images/Cyclops-cropped.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, RogueSec is the name and Penetration Testing is my game. After completing the Certified Penetration Tester (CPTS) certification from Hack the Box, I decided to showcase all my accomplishments and work so far on one page. 
+  Hi, RogueSec is the name and Penetration Testing is my game. After completing the Certified Penetration Tester (CPTS) certification from Hack the Box, I decided to showcase all my accomplishments and work so far on one page. If you are a hiring manager, recruiter, or have any questions, please don't hesitate to reach out to me via email.
 
 content:
   - title: Projects # Title for the section
