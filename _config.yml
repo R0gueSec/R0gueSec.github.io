@@ -69,7 +69,6 @@ content:
           Command Injection payloads for Linux and Windows
         description: | # this will include new lines to allow paragraphs
           This project includes various lists of commands to inject into vulnerable web applications hosted on either Linux or Windows. The commands are separated into distinct payloads to facilitate differing stages of testing for Command Injections. Some payloads allow for testing of the <mark>whoami</mark> command, while others allow attackers to test for various obfuscations of spaces or operators. My personal favorites are the <mark>Operators-Base64-*</mark> payloads, which allow an attacker to inject any command simply by using a Base64-encoded version of the command and using it in the payload. I have found that this technique is the jackpot of Command Injection attacks. 
-        
         title: Tools Downloaders
         link: https://github.com/R0gueSec/ToolsDownloaders
             # link_text: Project Website
