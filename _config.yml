@@ -83,7 +83,6 @@ content:
               A set of scripts to install common, but not default, penetration testing tools in Kali Linux
           description: | # this will include new lines to allow paragraphs
               This set of scripts installs penetration testing tools that are not installed by default in Kali Linux and organizes the tools into folders. These scripts come in handy when installing a fresh version of Kali Linux, including when accidentally breaking your Kali VM (which of course has never happened to any of us). 
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
