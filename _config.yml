@@ -55,7 +55,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Command Injections Payloads
+        title: Command Injection Payloads
         link: https://github.com/R0gueSec/Payloads/tree/main/CommandInjections
         # link_text: Project Website
         #additional_links:
@@ -68,7 +68,22 @@ content:
         quote: >
           Command Injection payloads for Linux and Windows
         description: | # this will include new lines to allow paragraphs
-          This project includes various lists of commands to inject into vulnerable web applications hosted on either Linux or Windows. The commands are separated into distinct payloads to facilitate differing stages of testing for Command Injections. Some payloads allow for testing of the <mark>whoami</mark> command, while others allow you to test for various obfuscations of spaces or operators. My personal favorites are the <mark>Operators-Base64-*</mark> payloads which allow an attacker to inject any command simply by using a Base64-encoded version of the command and using it in the payload. I have found that this technique is the jackpot of Command Injections. 
+          This project includes various lists of commands to inject into vulnerable web applications hosted on either Linux or Windows. The commands are separated into distinct payloads to facilitate differing stages of testing for Command Injections. Some payloads allow for testing of the <mark>whoami</mark> command, while others allow attackers to test for various obfuscations of spaces or operators. My personal favorites are the <mark>Operators-Base64-*</mark> payloads, which allow an attacker to inject any command simply by using a Base64-encoded version of the command and using it in the payload. I have found that this technique is the jackpot of Command Injection attacks. 
+        
+        title: Tools Downloaders
+        link: https://github.com/R0gueSec/ToolsDownloaders
+            # link_text: Project Website
+            #additional_links:
+            #  - title:  R0gueSec/
+            #    icon: fab fa-github
+            #    url: github.com/sproogen/modern-resume-theme
+              # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+              #   icon: fab fa-github
+              #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+          quote: >
+              A set of scripts to install common, but not default, penetration testing tools in Kali Linux
+          description: | # this will include new lines to allow paragraphs
+              This set of scripts installs penetration testing tools that are not installed by default in Kali Linux and organizes the tools into folders. These scripts come in handy when installing a fresh version of Kali Linux, including when accidentally breaking your Kali VM (which of course has never happened to any of us). 
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
