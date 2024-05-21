@@ -101,11 +101,11 @@ content:
       - layout: left
         title: CPTS
         caption: 04/30/2024
-        sub_title: HTB Certified Penetration Testing Specialist
+        sub_title: Certified Penetration Testing Specialist
         quote: >
           A highly hands-on certification that assesses the candidates' penetration testing skills
         description: | # this will include new lines to allow paragraphs
-          HTB Certified Penetration Testing Specialist certification holders will possess technical competency in the ethical hacking and penetration testing domains at an intermediate level. They will also be able to assess the risk at which an infrastructure is exposed and compose a commercial-grade as well as actionable report.
+          Hack the Box Certified Penetration Testing Specialist certification holders will possess technical competency in the ethical hacking and penetration testing domains at an intermediate level. They will also be able to assess the risk at which an infrastructure is exposed and compose a commercial-grade as well as actionable report.
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
