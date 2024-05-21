@@ -71,33 +71,30 @@ content:
   - title: HTB Pro Labs # Title for the section
     layout: list # Type of content section (list/text)
     content:
-    - layout: left
-        title: Zephyr
-        #link: https://boringcompany.com
-        sub_title: Level 1 Red Team Operator
-        completion date: December 07, 2023
+      - layout: left
+        title: Offshore
+        sub_title: Level 2 Red Team Operator
+        completion_date: December 20, 2023
         quote: >
-          Intermediate-level red team simulation Active Directory environment
+          Intermediate-level red team simulation featuring interactive users and modern, hardened operating systems.
         description: | # this will include new lines to allow paragraphs
-          Zephyr is an intermediate-level red team simulation environment, designed to be attacked as a means of learning and honing your engagement skills and improving your active directory enumeration and exploitation skills. Zephyr includes a wide range of essential Active Directory flaws and misconfigurations to allow players to get a foothold in corporate environments.
-    - layout: left
+          Offshore Pro Lab is an advanced infrastructure lab that simulates the look and feel of a real-world corporate network.
+      - layout: left
         title: Zephyr
-        #link: https://boringcompany.com
         sub_title: Level 1 Red Team Operator
-        completion date: December 07, 2023
+        completion_date: December 07, 2023
         quote: >
           Intermediate-level red team simulation Active Directory environment
         description: | # this will include new lines to allow paragraphs
           Zephyr is an intermediate-level red team simulation environment, designed to be attacked as a means of learning and honing your engagement skills and improving your active directory enumeration and exploitation skills. Zephyr includes a wide range of essential Active Directory flaws and misconfigurations to allow players to get a foothold in corporate environments.
       - layout: left
-        title: Zephyr
-        #link: https://boringcompany.com
+        title: Dante
         sub_title: Level 1 Red Team Operator
-        completion date: December 07, 2023
+        completion_date: October 23, 2023
         quote: >
-          Intermediate-level red team simulation Active Directory environment
+          Beginner-level red team simulation featuring common vulnerabilities, misconfigurations, and attack paths seen in real engagements.
         description: | # this will include new lines to allow paragraphs
-          Zephyr is an intermediate-level red team simulation environment, designed to be attacked as a means of learning and honing your engagement skills and improving your active directory enumeration and exploitation skills. Zephyr includes a wide range of essential Active Directory flaws and misconfigurations to allow players to get a foothold in corporate environments.
+          Dante is a modern and beginner-friendly Pro Lab that provides the opportunity to learn common penetration testing methodologies and gain familiarity with tools included in the Parrot OS Linux distribution.
   - title: Certifications # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -108,7 +105,7 @@ content:
         quote: >
           Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thoroughly enjoyed my time at university and learnt a lot about a healthy work-life balance.
+          During my time at Harvard I learnt most of my key skills that I have taken through my career such as teamwork and working to tight deadlines. I thoroughly enjoyed my time at university and learnt a lot about a healthy work-life balance.
 
           I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
   - title: A Little More About Me
@@ -122,6 +119,7 @@ content:
 
       Look at this cool image  
       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
 
 
 # Footer
