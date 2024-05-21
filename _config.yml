@@ -115,13 +115,13 @@ content:
         description: | # this will include new lines to allow paragraphs
           The eCPPTv2 certification exam assesses and validates that the individual has the knowledge, skills, and abilities required to fulfill the role of a modern Penetration Tester.
       - layout: left
-        title: eCPPTvs
+        title: eJPTv1
         caption: 
-        sub_title: eLearnSecurity Certified Professional Penetration Tester
+        sub_title: eLearnSecurity Junior Penetration Tester
         quote: >
-          A practical, hands-on certification exam designed for professional Penetration Testers and Ethical Hackers.
+          A hands-on, entry-level Red Team certification that simulates skills utilized during real-world engagements.
         description: | # this will include new lines to allow paragraphs
-          The eCPPTv2 certification exam assesses and validates that the individual has the knowledge, skills, and abilities required to fulfill the role of a modern Penetration Tester.
+          The eJPT certification exam covers Assessment Methodologies, Host and Network Auditing, Host and Network Penetration Testing, and Web Application Penetration Testing.
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
