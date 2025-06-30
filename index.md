@@ -46,3 +46,25 @@ title: David Marrufo – Resume
     <p><strong>Issuer:</strong> Microsoft<br><strong>Date:</strong> April 2025</p>
   </div>
 </div>
+
+
+<style>
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.cert-card {
+  background: #f5f5f5;
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+.cert-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+</style>
+
