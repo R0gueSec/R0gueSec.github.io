@@ -95,41 +95,62 @@ content:
           Beginner-level red team simulation featuring common vulnerabilities, misconfigurations, and attack paths seen in real engagements.
         description: | # this will include new lines to allow paragraphs
           Dante is a modern and beginner-friendly Pro Lab that provides the opportunity to learn common penetration testing methodologies and gain familiarity with tools included in the Parrot OS Linux distribution.
-  - title: Certifications # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Certifications
+    layout: list
     content:
       - layout: left
-        title: CPTS
-        caption: 
-        sub_title: Certified Penetration Testing Specialist
+        title: CompTIA Security+
+        sub_title: CompTIA
+        completion_date: March 2022
         quote: >
-          A highly hands-on certification that assesses the candidates' penetration testing skills
-        description: | # this will include new lines to allow paragraphs
-          Hack the Box Certified Penetration Testing Specialist certification holders will possess technical competency in the ethical hacking and penetration testing domains at an intermediate level. They will also be able to assess the risk at which an infrastructure is exposed and compose a commercial-grade as well as actionable report.
+          Industry-standard certification in foundational cybersecurity knowledge.
+        description: >
+          Covers essential principles for network security and risk management, and is approved for DoD 8570 compliance.
+
       - layout: left
-        title: eCPPTv2
-        caption: 
-        sub_title: eLearnSecurity Certified Professional Penetration Tester
+        title: Certified Bug Bounty Hunter (CBBH)
+        sub_title: Hack The Box
+        completion_date: December 2024
         quote: >
-          A practical, hands-on certification exam designed for professional Penetration Testers and Ethical Hackers.
-        description: | # this will include new lines to allow paragraphs
-          The eCPPTv2 certification exam assesses and validates that the individual has the knowledge, skills, and abilities required to fulfill the role of a modern Penetration Tester.
+          Hands-on bug bounty hunting and web app exploitation techniques.
+        description: >
+          Demonstrates real-world web exploitation, recon, and report writing across vulnerable HTB targets and labs.
+
       - layout: left
-        title: eJPTv1
-        caption: 
-        sub_title: eLearnSecurity Junior Penetration Tester
+        title: Certified Penetration Testing Specialist (CPTS)
+        sub_title: Hack The Box
+        completion_date: April 2024
         quote: >
-          A hands-on, entry-level Red Team certification that simulates skills utilized during real-world engagements.
-        description: | # this will include new lines to allow paragraphs
-          The eJPT certification exam covers Assessment Methodologies, Host and Network Auditing, Host and Network Penetration Testing, and Web Application Penetration Testing.
+          Intermediate penetration testing certification aligned with real-world infrastructure assessments.
+        description: >
+          Validates skills in recon, exploitation, Active Directory attacks, and post-exploitation in simulated corp environments.
+
       - layout: left
-        title: Learn Python 3
-        caption: 
-        sub_title: 
+        title: Blue Team Level 1 (BTL1)
+        sub_title: Security Blue Team
+        completion_date: February 2025
         quote: >
-          Learn the basics of Python 3
-        description: | # this will include new lines to allow paragraphs
-          Learn Python 3 from Codecademy teaches the basics of Python 3, one of the most powerful, versatile, and in-demand programming languages today.
+          SOC Level 1 analyst certification with honors.
+        description: >
+          Includes threat hunting, SIEM analysis, and practical defensive operations. Earned with Gold Coin Honors.
+
+      - layout: left
+        title: Splunk Core Certified User
+        sub_title: Splunk
+        completion_date: May 2025
+        quote: >
+          Foundational Splunk certification in search, alerts, and dashboards.
+        description: >
+          Demonstrates proficiency in core Splunk features including SPL queries, reports, and visualizations.
+
+      - layout: left
+        title: Microsoft Certified: Azure Fundamentals (AZ-900)
+        sub_title: Microsoft
+        completion_date: April 2025
+        quote: >
+          Entry-level certification in Azure cloud services.
+        description: >
+          Demonstrates understanding of cloud concepts, Azure services, workloads, security, privacy, and compliance.
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
