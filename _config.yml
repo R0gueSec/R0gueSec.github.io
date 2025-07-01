@@ -18,17 +18,6 @@ darkmode: false
 twitter_username: RogueSec_
 github_username: R0gueSec
 
-# Navigation Links
-navigation:
-  - title: Home
-    url: /
-  - title: Labs
-    url: /labs
-  - title: Red Team Labs
-    url: /redteam
-  - title: Tools
-    url: /tools
-
 # About Section
 about_profile_image: images/Cyclops-cropped.png
 about_content: |
