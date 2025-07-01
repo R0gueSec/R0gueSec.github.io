@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{ site.seo }}
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+</head>
+<body>
+  <main>
+    {% if page.content %}
+      {{ content }}
+    {% elsif page.layout == 'list' %}
+      {% include sections/list.html %}
+    {% endif %}
+  </main>
+</body>
+</html>
