@@ -34,7 +34,7 @@ about_content: |
 
 content:
 
-  - title: Labs
+  - title: Blue Team Labs
     layout: list
     content:
       - layout: top-middle
@@ -98,7 +98,7 @@ content:
         description: |
           Track down users leveraging Tor nodes by analyzing proxy, DNS, and firewall data. This sub-lab helps reinforce detection strategies for bypassing standard monitoring tools.
 
-  - title: Enterprise-Scale Attack Simulation Environments
+  - title: Red Team Labs
     layout: list
     content:
       - layout: left
