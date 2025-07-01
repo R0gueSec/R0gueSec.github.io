@@ -134,10 +134,9 @@ content:
     layout: text
     content: |
       Alongside my interests in penetration testing, some of my other interests and hobbies are:
-      - Retrowave Music
-      - Gaming
-      - Bitcoin
-      - Adobe Photoshop
+      - Agentic AI
+      - Decentralized Systems
+      - Red Teaming
 
 # Footer
 footer_show_references: true
