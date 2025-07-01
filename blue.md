@@ -1,5 +1,5 @@
 ---
-layout: resume
+layout: page
 title: Blue Team Labs
 permalink: /blue
 ---
