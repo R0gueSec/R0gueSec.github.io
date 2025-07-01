@@ -1,17 +1,15 @@
-# === Site Configuration ===
-
-theme: jekyll-theme-chirpy
+# Chirpy Jekyll Theme Configuration
 
 lang: en
-timezone: America/Los_Angeles  # ← Update to your timezone
+timezone: America/Los_Angeles
 
-# SEO
 title: RogueSec
 tagline: Blue Team Defender | Penetration Tester
 description: >-
-  Portfolio and lab showcase for a blue teamer and penetration tester focused on real-world labs, tools, and certifications.
+  Personal cybersecurity portfolio and blog documenting blue team labs, red team operations, and custom-built tools.
 
 url: "https://www.roguesec.net"
+baseurl: ""
 
 github:
   username: R0gueSec
@@ -26,53 +24,29 @@ social:
     - https://twitter.com/RogueSec_
     - https://github.com/R0gueSec
 
-# Web analytics (optional)
-analytics:
-  google:
-    id:
-  goatcounter:
-    id:
+theme_mode: # (leave empty to follow system preference)
 
-# Color mode toggle (light | dark | leave empty to follow system)
-theme_mode:
-
-# Avatar and preview image
-avatar: /assets/img/avatar.png
-social_preview_image:
-
-# Table of contents setting
 toc: true
 
-# Comments (leave disabled for now)
-comments:
-  provider:
-
-# Progressive Web App
 pwa:
   enabled: true
   cache:
     enabled: true
-    deny_paths: []
+    deny_paths:
+      # e.g., - "/labs"
 
-# Pagination
 paginate: 10
 
-baseurl: ""  # Important for GitHub Pages root domain
+# SEO
+webmaster_verifications:
+  google:
+  bing:
+  yandex:
 
-# === Markdown / Build Config ===
+# Comments (disabled by default)
+comments:
+  provider:
 
-kramdown:
-  footnote_backlink: "&#8617;&#xfe0e;"
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: highlight
-    block:
-      line_numbers: true
-      start_line: 1
-    span:
-      line_numbers: false
-
-# === Tabs (Pages like /blue, /red, /tools) ===
 collections:
   tabs:
     output: true
@@ -87,12 +61,10 @@ defaults:
       comments: true
       toc: true
       permalink: /posts/:title/
-
   - scope:
       path: _drafts
     values:
       comments: false
-
   - scope:
       path: ""
       type: tabs
@@ -100,9 +72,23 @@ defaults:
       layout: page
       permalink: /:title/
 
+# Markdown rendering
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+# SASS
 sass:
   style: compressed
 
+# HTML compression
 compress_html:
   clippings: all
   comments: all
@@ -122,13 +108,3 @@ exclude:
   - purgecss.js
   - "*.config.js"
   - "package*.json"
-
-# Archive support
-jekyll-archives:
-  enabled: [categories, tags]
-  layouts:
-    category: category
-    tag: tag
-  permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/
