@@ -1,34 +1,41 @@
+# Chirpy-based RogueSec Jekyll Configuration
+
 title: RogueSec
-tagline: Blue Team Defender | Penetration Tester
-description: Personal site for David Marrufo's certifications, labs, and tools.
-lang: en
-timezone: America/Los_Angeles
+tagline: Blue and Red Team Labs | Tools | Research
+description: >-
+  Cybersecurity research, labs, and tools by David Marrufo.
 url: "https://www.roguesec.net"
-baseurl: ""
+baseurl: ""  # No subdirectory since you're using a custom domain
 
-theme: jekyll-theme-chirpy
+lang: en
+timezone: America/Los_Angeles  # Adjust as needed
 
-author:
-  name: David Marrufo
-  email: hello@roguesec.net
+theme_mode: dark  # Force dark mode by default
 
+# Social and SEO
 github:
   username: R0gueSec
-
 social:
   name: David Marrufo
-  email: hello@roguesec.net
+  email: you@example.com
   links:
     - https://github.com/R0gueSec
+    - https://www.linkedin.com/in/your-linkedin
+    - https://twitter.com/your-twitter
 
-paginate: 10
-
+# Collections for Chirpy tabs
 collections:
   tabs:
     output: true
     sort_by: order
 
 defaults:
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
   - scope:
       path: ""
       type: posts
@@ -41,13 +48,52 @@ defaults:
       path: _drafts
     values:
       comments: false
-  - scope:
-      path: ""
-      type: tabs
-    values:
-      layout: page
-      permalink: /:title/
 
+paginate: 10
+
+toc: true
+
+# Self-hosted assets (optional — if you're using chirpy-static-assets)
+assets:
+  self_host:
+    enabled:
+    env:
+
+# Comments (optional — leave disabled unless you choose one)
+comments:
+  provider:
+
+# Analytics (optional)
+analytics:
+  google:
+    id:
+
+# SEO site verification (optional)
+webmaster_verifications:
+  google:
+  bing:
+  yandex:
+
+# PWA support
+pwa:
+  enabled: true
+  cache:
+    enabled: true
+    deny_paths: []
+
+# Rouge syntax highlighter
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+# HTML compression
 compress_html:
   clippings: all
   comments: all
@@ -56,3 +102,23 @@ compress_html:
   blanklines: false
   ignore:
     envs: [development]
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - docs
+  - tools/dev
+  - README.md
+  - LICENSE
+  - purgecss.js
+  - "*.config.js"
+  - "package*.json"
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
