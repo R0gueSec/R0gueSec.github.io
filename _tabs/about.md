@@ -8,7 +8,7 @@ order: 1
 
 I'm **RogueSec**, a cybersecurity practitioner with a focus on both offensive and defensive security. I blend hands-on red teaming, threat detection, cloud, and AI. My goal is to make cybersecurity more accessible and actionable — whether in blue team operations or adversary simulation.
 
-I’m currently building **RogueSec**, a portfolio and knowledge-sharing site where I publish labs, tools, notes, and content from my work and training.
+I’m currently building **roguesec.net**, a portfolio and knowledge-sharing site where I publish labs, tools, notes, and content from my work and training.
 
 ---
 
