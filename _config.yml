@@ -34,10 +34,10 @@ about_profile_image: images/Cyclops-cropped.png
 about_content: |
   Hi, RogueSec is the name and Penetration Testing is my game. After completing the Certified Penetration Tester (CPTS) certification from Hack the Box, I decided to showcase all my accomplishments and work so far on one page. If you are a hiring manager, recruiter, or have any questions, please don't hesitate to reach out to me via email.
 
-  Here are some links to different sections of my work:
-  🔗 [Blue Team Labs](https://www.roguesec.net/labs)
-  🔗 [Red Team Environments](https://www.roguesec.net/red)
-  🔗 [Tools](https://www.roguesec.net/tools)
+  ➤ Explore my labs:<br>
+  🔹 <a href="https://www.roguesec.net/labs">Blue Team Labs</a><br>
+  🔹 <a href="https://www.roguesec.net/red">Red Team Labs</a><br>
+  🔹 <a href="https://www.roguesec.net/tools">Tools</a>
 
 content:
   - title: Certifications
@@ -48,9 +48,9 @@ content:
         sub_title: "Splunk | May 2025"
         completion_date: May 2025
         quote: "Foundational Splunk certification in search, alerts, and dashboards."
-        description: |
-          • Monitored and analyzed real-time log data from firewalls, endpoint protection, and authentication systems.
-          • Built SPL-based alerts for brute-force logins, excessive failed authentications, and privilege escalation attempts.
+        description: >
+          • Monitored and analyzed real-time log data from firewalls, endpoint protection, and authentication systems.<br>
+          • Built SPL-based alerts for brute-force logins, excessive failed authentications, and privilege escalation attempts.<br>
           • Familiar with event correlation, field extractions, and identifying notable events aligned with SOC playbooks.
 
       - layout: left
@@ -58,9 +58,9 @@ content:
         sub_title: "Microsoft | April 2025"
         completion_date: April 2025
         quote: "Foundational certification in Azure cloud services."
-        description: |
-          • Validated foundational knowledge of Azure cloud architecture and core services relevant to security and operations roles.
-          • Identified and worked with key Azure resources, including virtual machines, storage accounts, and virtual networks.
+        description: >
+          • Validated foundational knowledge of Azure cloud architecture and core services relevant to security and operations roles.<br>
+          • Identified and worked with key Azure resources, including virtual machines, storage accounts, and virtual networks.<br>
           • Developed understanding of Azure’s built-in security, compliance, and governance features such as Microsoft Defender for Cloud.
 
       - layout: left
@@ -68,9 +68,9 @@ content:
         sub_title: "Security Blue Team | February 2025"
         completion_date: February 2025
         quote: "Foundational certification for defenders and SOC analysts."
-        description: |
-          • Performed in-depth log analysis and incident triage using SIEM tools such as Splunk and Elastic Stack in lab-based simulations.
-          • Investigated host-based artifacts using tools like Sysmon, Velociraptor, and Autopsy to trace attacker behavior and identify compromise indicators.
+        description: >
+          • Performed in-depth log analysis and incident triage using SIEM tools such as Splunk and Elastic Stack in lab-based simulations.<br>
+          • Investigated host-based artifacts using tools like Sysmon, Velociraptor, and Autopsy to trace attacker behavior and identify compromise indicators.<br>
           • Developed threat hunting queries and detection rules to identify malicious behavior patterns across enterprise systems.
 
       - layout: left
@@ -78,9 +78,9 @@ content:
         sub_title: "Hack The Box | April 2024"
         completion_date: April 2024
         quote: "Offensive security certification for real-world penetration testing scenarios."
-        description: |
-          • Completed full-scope penetration tests of custom Linux and Windows environments with manual exploitation.
-          • Conducted enumeration, exploitation, privilege escalation, and lateral movement.
+        description: >
+          • Completed full-scope penetration tests of custom Linux and Windows environments with manual exploitation.<br>
+          • Conducted enumeration, exploitation, privilege escalation, and lateral movement.<br>
           • Wrote professional-style penetration testing reports with actionable remediation advice.
 
       - layout: left
@@ -88,9 +88,9 @@ content:
         sub_title: "Hack The Box | December 2024"
         completion_date: December 2024
         quote: "Hands-on bug bounty training and labs focusing on real-world exploitation techniques."
-        description: |
-          • Discovered and exploited OWASP Top 10 vulnerabilities in real-world style targets.
-          • Practiced responsible disclosure workflows and report writing.
+        description: >
+          • Discovered and exploited OWASP Top 10 vulnerabilities in real-world style targets.<br>
+          • Practiced responsible disclosure workflows and report writing.<br>
           • Utilized Burp Suite, browser extensions, and custom payloads for in-depth web testing.
 
       - layout: left
@@ -98,9 +98,9 @@ content:
         sub_title: "CompTIA | March 2022"
         completion_date: March 2022
         quote: "Industry-standard cybersecurity certification."
-        description: |
-          • Covered essential principles for network security, cryptography, risk management, and compliance.
-          • Demonstrated baseline knowledge of security architecture, operations, and incident response.
+        description: >
+          • Covered essential principles for network security, cryptography, risk management, and compliance.<br>
+          • Demonstrated baseline knowledge of security architecture, operations, and incident response.<br>
           • Approved for DoD 8570 compliance.
 
   - title: A Little More About Me
