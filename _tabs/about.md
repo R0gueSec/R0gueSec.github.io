@@ -4,12 +4,9 @@ icon: fas fa-user
 order: 1
 ---
 
-Hi, I'm **RogueSec** — Blue Team Defender & Penetration Tester.
+Welcome to my cybersecurity portfolio. I’m David Marrufo (aka RogueSec) — Blue Team Defender, Pen Tester, and AI Builder.
 
-This site showcases my certifications, tools, labs, and walkthroughs from both the red and blue teams.
-
-Explore:
-
-- [Blue Team Labs](/blue)
-- [Red Team Labs](/red)
-- [Tools](/tools)
+This site contains:
+- 🔹 Blue Team Labs
+- 🔻 Red Team Labs
+- 🛠️ Tools and Scripts
