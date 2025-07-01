@@ -15,6 +15,7 @@ I’m currently building **RogueSec**, a portfolio and knowledge-sharing site wh
 ## 🎯 Focus Areas
 - Offensive Security & Red Teaming
 - Threat Detection & Incident Response
+- Cloud Security
 - AI and Agentic Security R&D (soon)
 
 ---
