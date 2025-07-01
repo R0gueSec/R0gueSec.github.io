@@ -22,8 +22,8 @@ github_username: R0gueSec
 navigation:
   - title: Home
     url: /
-  - title: Labs
-    url: /labs
+  - title: Blue Team Labs
+    url: /blue
   - title: Red Team Labs
     url: /red
   - title: Tools
@@ -34,7 +34,7 @@ about_profile_image: images/Cyclops-cropped.png
 about_content: |
   Hi, RogueSec is the name and Penetration Testing is my game. After completing the Certified Penetration Tester (CPTS) certification from Hack the Box, I decided to showcase all my accomplishments and work so far on one page. If you are a hiring manager, recruiter, or have any questions, please don't hesitate to reach out to me via email.
 
-  ➤ Explore my labs and projects:<br>
+  ➤ Explore my labs:<br>
   🔹 <a href="https://www.roguesec.net/blue">Blue Team Labs</a><br>
   🔹 <a href="https://www.roguesec.net/red">Red Team Labs</a><br>
   🔹 <a href="https://www.roguesec.net/tools">Tools</a>
@@ -114,6 +114,47 @@ content:
           • Demonstrated baseline knowledge of security architecture, operations, and incident response.<br>
           • Approved for DoD 8570 compliance.
           </div>
+
+  - title: Blue Team Labs
+    layout: text
+    permalink: /blue
+    content: |
+      ## Blue Team Labs
+
+      Exploring real-world blue team scenarios designed to simulate defender challenges and help build skills in detection, investigation, and response.
+
+      - Vulnerability Management
+      - Devices Exposed to the Internet
+      - Sudden Network Slowdowns
+      - Suspected Data Exfiltration by an Employee
+      - New Zero-Day Vulnerability Announced by the News
+      - Unauthorized Tor Usage
+
+  - title: Red Team Labs
+    layout: text
+    permalink: /red
+    content: |
+      ## Red Team Labs
+
+      Labs focused on offensive tactics, including enumeration, privilege escalation, exploitation, and lateral movement.
+
+      - PrivEsc Playground
+      - Web App Fuzzing
+      - Reverse Shell Hunting
+      - Credential Harvesting with Mimikatz
+
+  - title: Tools
+    layout: text
+    permalink: /tools
+    content: |
+      ## Tools
+
+      Custom scripts, helpers, and offensive/defensive utilities I've written or use frequently.
+
+      - Port Scanner (Python)
+      - Log Parser (for Splunk/Elastic)
+      - JWT Decoder
+      - URL Fuzzer (based on ffuf)
 
   - title: A Little More About Me
     layout: text
