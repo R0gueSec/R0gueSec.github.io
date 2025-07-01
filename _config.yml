@@ -78,7 +78,7 @@ content:
     content:
       - layout: left
         title: Splunk Core Certified User
-        sub_title: Splunk May 2025
+        sub_title: Splunk | May 2025
         completion_date: May 2025
         quote: >
           Foundational Splunk certification in search, alerts, and dashboards.
@@ -87,7 +87,7 @@ content:
 
       - layout: left
         title: "Microsoft Certified: Azure Fundamentals (AZ-900)"
-        sub_title: Microsoft April 2025
+        sub_title: Microsoft | April 2025
         completion_date: April 2025
         quote: >
           Entry-level certification in Azure cloud services.
@@ -96,7 +96,7 @@ content:
 
       - layout: left
         title: Blue Team Level 1 (BTL1) (Gold Coin Honors)
-        sub_title: "Security Blue Team February 2025"
+        sub_title: "Security Blue Team | February 2025"
         completion_date: February 2025
         quote: >
           Entry-level certification for defenders and SOC analysts.
@@ -105,7 +105,7 @@ content:
 
       - layout: left
         title: "Certified Penetration Testing Specialist (CPTS)"
-        sub_title: Hack The Box April 2024
+        sub_title: Hack The Box | April 2024
         completion_date: April 2024
         quote: >
           Offensive security certification for real-world penetration testing scenarios.
@@ -114,7 +114,7 @@ content:
 
       - layout: left
         title: "Certified Bug Bounty Hunter (CBBH)"
-        sub_title: Hack The Box December 2024
+        sub_title: Hack The Box | December 2024
         completion_date: December 2024
         quote: >
           Hands-on bug bounty training and labs focusing on real-world exploitation techniques.
@@ -123,7 +123,7 @@ content:
 
       - layout: left
         title: CompTIA Security+
-        sub_title: CompTIA March 2022
+        sub_title: CompTIA | March 2022
         completion_date: March 2022
         quote: >
           Industry-standard certification in foundational cybersecurity knowledge.
