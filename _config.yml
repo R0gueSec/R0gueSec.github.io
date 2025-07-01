@@ -18,6 +18,12 @@ darkmode: false
 twitter_username: RogueSec_
 github_username: R0gueSec
 
+navigation:
+  - title: Home
+    url: /
+  - title: Labs
+    url: /labs
+
 # About Section
 about_profile_image: images/Cyclops-cropped.png
 about_content: |
