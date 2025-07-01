@@ -1,21 +1,16 @@
-# The Site Configuration
+# === Site Configuration ===
 
-# Do NOT include 'theme:' if you're using Chirpy locally (not as a remote theme)
+theme: jekyll-theme-chirpy
 
-# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 lang: en
+timezone: America/Los_Angeles  # ← Update to your timezone
 
-# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone: America/Los_Angeles
-
-# jekyll-seo-tag settings
+# SEO
 title: RogueSec
 tagline: Blue Team Defender | Penetration Tester
 description: >-
-  Portfolio of RogueSec, featuring cyber labs, tools, walkthroughs, and certification achievements.
+  Portfolio and lab showcase for a blue teamer and penetration tester focused on real-world labs, tools, and certifications.
 
-# Fill in the protocol & hostname for your site.
-# Note: no trailing slash
 url: "https://www.roguesec.net"
 
 github:
@@ -25,80 +20,59 @@ twitter:
   username: RogueSec_
 
 social:
-  name: RogueSec
+  name: David Marrufo
   email: hello@roguesec.net
   links:
     - https://twitter.com/RogueSec_
     - https://github.com/R0gueSec
 
-webmaster_verifications:
-  google:
-  bing:
-  alexa:
-  yandex:
-  baidu:
-  facebook:
-
+# Web analytics (optional)
 analytics:
   google:
     id:
   goatcounter:
     id:
-  umami:
-    id:
-    domain:
-  matomo:
-    id:
-    domain:
-  cloudflare:
-    id:
-  fathom:
-    id:
 
-pageviews:
-  provider:
+# Color mode toggle (light | dark | leave empty to follow system)
+theme_mode:
 
-theme_mode:  # [light | dark] — leave empty to use system preference with toggle
+# Avatar and preview image
+avatar: /assets/img/avatar.png
+social_preview_image:
 
-cdn:
-
-avatar:  # leave empty unless you want a custom sidebar avatar
-
-social_preview_image:  # used in SEO meta tags (can override per post)
-
+# Table of contents setting
 toc: true
 
+# Comments (leave disabled for now)
 comments:
   provider:
 
-assets:
-  self_host:
-    enabled:
-    env:
-
+# Progressive Web App
 pwa:
   enabled: true
   cache:
     enabled: true
-    deny_paths:
+    deny_paths: []
 
+# Pagination
 paginate: 10
 
-baseurl: ""  # leave blank for GitHub Pages root
+baseurl: ""  # Important for GitHub Pages root domain
 
-# ------------ DO NOT EDIT BELOW UNLESS NEEDED ------------------
+# === Markdown / Build Config ===
 
 kramdown:
   footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     css_class: highlight
-    span:
-      line_numbers: false
     block:
       line_numbers: true
       start_line: 1
+    span:
+      line_numbers: false
 
+# === Tabs (Pages like /blue, /red, /tools) ===
 collections:
   tabs:
     output: true
@@ -113,10 +87,12 @@ defaults:
       comments: true
       toc: true
       permalink: /posts/:title/
+
   - scope:
       path: _drafts
     values:
       comments: false
+
   - scope:
       path: ""
       type: tabs
@@ -147,6 +123,7 @@ exclude:
   - "*.config.js"
   - "package*.json"
 
+# Archive support
 jekyll-archives:
   enabled: [categories, tags]
   layouts:
