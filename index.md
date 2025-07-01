@@ -1,5 +1,6 @@
 ---
-# the default layout is 'page'
+layout: page
+title: "Home"
 icon: fas fa-house-user
 order: 0
 ---
