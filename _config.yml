@@ -18,7 +18,7 @@ darkmode: false
 twitter_username: RogueSec_
 github_username: R0gueSec
 
-# Navigation
+# Navigation bar links
 navigation:
   - title: Home
     url: /
@@ -32,12 +32,12 @@ navigation:
 # About Section
 about_profile_image: images/Cyclops-cropped.png
 about_content: |
-  Hi, RogueSec is the name and Penetration Testing is my game. After completing the Certified Penetration Tester (CPTS) certification from Hack The Box, I decided to showcase all my accomplishments and work so far on one page.
+  Hi, RogueSec is the name and Penetration Testing is my game. After completing the Certified Penetration Tester (CPTS) certification from Hack The Box, I decided to showcase all my accomplishments and work so far on one page. If you are a hiring manager, recruiter, or have any questions, please don't hesitate to reach out to me via email.
 
-  🛡️ Explore more:
-  - [Blue Team Labs](/labs)
-  - [Red Team Labs](/redteam)
-  - [Tools](/tools)
+  ➤ Explore my labs:
+  - [Blue Team Labs](https://www.roguesec.net/labs)
+  - [Red Team Labs](https://www.roguesec.net/redteam)
+  - [Tools](https://www.roguesec.net/tools)
 
 content:
   - title: Certifications
@@ -47,55 +47,43 @@ content:
         title: Splunk Core Certified User
         sub_title: Splunk | May 2025
         completion_date: May 2025
-        quote: >
-          Foundational Splunk certification in search, alerts, and dashboards.
         description: >
-          Demonstrates proficiency in core Splunk features including SPL queries, reports, and visualizations.
+          Foundational Splunk certification in search, alerts, dashboards, and visualizations using SPL queries and reports.
 
       - layout: left
         title: "Microsoft Certified: Azure Fundamentals (AZ-900)"
         sub_title: Microsoft | April 2025
         completion_date: April 2025
-        quote: >
-          Entry-level certification in Azure cloud services.
         description: >
-          Demonstrates understanding of cloud concepts, Azure services, workloads, security, privacy, and compliance.
+          Foundational certification in Microsoft Azure cloud concepts, core services, workloads, security, governance, and compliance.
 
       - layout: left
         title: Blue Team Level 1 (BTL1) (Gold Coin Honors)
         sub_title: "Security Blue Team | February 2025"
         completion_date: February 2025
-        quote: >
-          Entry-level certification for defenders and SOC analysts.
         description: >
-          Demonstrates hands-on experience in threat hunting, SIEM, digital forensics, and incident response.
+          Foundational hands-on certification in blue team operations, covering threat hunting, SIEM, digital forensics, and incident response workflows.
 
       - layout: left
         title: "Certified Penetration Testing Specialist (CPTS)"
         sub_title: Hack The Box | April 2024
         completion_date: April 2024
-        quote: >
-          Offensive security certification for real-world penetration testing scenarios.
         description: >
-          Validates proficiency in information gathering, enumeration, exploitation, post-exploitation, and reporting.
+          Offensive security certification focused on real-world penetration testing scenarios involving enumeration, exploitation, post-exploitation, and reporting.
 
       - layout: left
         title: "Certified Bug Bounty Hunter (CBBH)"
         sub_title: Hack The Box | December 2024
         completion_date: December 2024
-        quote: >
-          Hands-on bug bounty training and labs focusing on real-world exploitation techniques.
         description: >
-          Demonstrates skills in reconnaissance, vulnerability discovery, and responsible disclosure through practical HTB targets.
+          Practical certification based on bug bounty methodologies, covering reconnaissance, vulnerability discovery, and responsible disclosure through HTB labs.
 
       - layout: left
         title: CompTIA Security+
         sub_title: CompTIA | March 2022
         completion_date: March 2022
-        quote: >
-          Industry-standard certification in foundational cybersecurity knowledge.
         description: >
-          Covers essential principles for network security and risk management, and is approved for DoD 8570 compliance.
+          Industry-standard certification in foundational cybersecurity concepts including network security, risk management, and compliance (DoD 8570 approved).
 
 # Footer
 footer_show_references: true
@@ -108,4 +96,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
