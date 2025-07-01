@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: RogueSec
-title: Penetration Tester
+title: Blue Team Defender | Penetration Tester
 email: hello @ roguesec [dot] net
 website: www.roguesec.net
 
@@ -18,24 +18,85 @@ darkmode: false
 twitter_username: RogueSec_
 github_username: R0gueSec
 
+# Navigation bar
+navigation:
+  - title: Home
+    url: /
+  - title: Labs
+    url: /labs
+
 # About Section
 about_profile_image: images/Cyclops-cropped.png
 about_content: |
   Hi, RogueSec is the name and Penetration Testing is my game. After completing the Certified Penetration Tester (CPTS) certification from Hack the Box, I decided to showcase all my accomplishments and work so far on one page. If you are a hiring manager, recruiter, or have any questions, please don't hesitate to reach out to me via email.
 
+  👉 Check out my Blue Team Labs here: [www.roguesec.net/labs](https://www.roguesec.net/labs)
+
 content:
 
-  - title: Blue Team Labs
+  - title: Labs
     layout: list
     content:
-      - layout: left
-        title: Home Labs Index
-        sub_title: Real-world blue team scenarios and home lab investigations
-        link: /labs
+      - layout: top-middle
+        title: Vulnerability Management
+        link: "#"
         quote: >
-          Explore hands-on defensive investigations including threat hunting, anomaly detection, and incident response simulations.
-        description: >
-          Click the title to view my full collection of Blue Team lab writeups and investigations.
+          Proactive lab for identifying, prioritizing, and remediating system vulnerabilities.
+        description: |
+          This lab focuses on simulating real-world vulnerability scanning and management. You’ll learn how to assess risk, use tools like Nessus or OpenVAS, and develop an effective vulnerability mitigation strategy aligned with business needs.
+
+      - layout: top-middle
+        title: Threat Hunting
+        link: "#"
+        quote: >
+          A multi-scenario lab designed to sharpen your detection and investigation skills.
+        description: |
+          This lab includes hands-on simulations of suspicious activity across network and endpoint data. You'll apply threat intel, SIEM queries, and behavioral analysis techniques to uncover hidden threats.
+
+      - layout: left
+        title: Devices Exposed to the Internet
+        sub_title: Threat Hunting Sub-Lab
+        link: "#"
+        quote: >
+          Identify assets unintentionally exposed to the public internet.
+        description: |
+          This scenario explores discovery and validation of misconfigured firewalls, cloud storage, or public-facing applications, and teaches remediation and monitoring best practices.
+
+      - layout: left
+        title: Sudden Network Slowdowns
+        sub_title: Threat Hunting Sub-Lab
+        link: "#"
+        quote: >
+          Investigate the root cause of abnormal network performance.
+        description: |
+          This investigation simulates lateral movement, beaconing, or malware exfiltration as the underlying cause of a slowdown. You’ll correlate data from network sensors and firewall logs to isolate the issue.
+
+      - layout: left
+        title: Suspected Data Exfiltration by an Employee
+        sub_title: Threat Hunting Sub-Lab
+        link: "#"
+        quote: >
+          Examine insider threat scenarios using endpoint and proxy data.
+        description: |
+          Simulate an investigation of unusual data transfer patterns from an internal user. Apply behavioral analytics to confirm intent and build an evidence-based timeline.
+
+      - layout: left
+        title: New Zero-Day Vulnerability Announced by the News
+        sub_title: Threat Hunting Sub-Lab
+        link: "#"
+        quote: >
+          React in real-time to an emerging global security threat.
+        description: |
+          Practice threat intelligence collection, IOC mapping, and internal scanning to determine exposure to a zero-day vulnerability, then simulate a response and patch cycle.
+
+      - layout: left
+        title: Unauthorized Tor Usage
+        sub_title: Threat Hunting Sub-Lab
+        link: "#"
+        quote: >
+          Detect and investigate anonymous browsing activity on your network.
+        description: |
+          Track down users leveraging Tor nodes by analyzing proxy, DNS, and firewall data. This sub-lab helps reinforce detection strategies for bypassing standard monitoring tools.
 
   - title: Enterprise-Scale Attack Simulation Environments
     layout: list
@@ -76,7 +137,7 @@ content:
         quote: >
           Command Injection payloads for Linux and Windows
         description: |
-          This project includes various lists of commands to inject into vulnerable web applications hosted on either Linux or Windows. The commands are separated into distinct payloads to facilitate differing stages of testing for Command Injections. Some payloads allow for testing of the 'whoami' command, while others allow attackers to test for various obfuscations of spaces or operators. My personal favorites are the Operators-Base64-* payloads, which allow an attacker to inject any command simply by using a Base64-encoded version of the command and using it in the payload. I have found that this technique is the jackpot of Command Injection attacks.
+          This project includes various lists of commands to inject into vulnerable web applications hosted on either Linux or Windows. The commands are separated into distinct payloads to facilitate differing stages of testing for Command Injections. Some payloads allow for testing of the 'whoami' command, while others allow attackers to test for various obfuscations of spaces or operators.
 
       - layout: top-middle
         title: Tools Downloaders
@@ -84,7 +145,7 @@ content:
         quote: >
           A set of scripts to install common, but not default, penetration testing tools in Kali Linux
         description: |
-          This set of scripts installs penetration testing tools that are not installed by default in Kali Linux and organizes the tools into folders. These scripts come in handy when installing a fresh version of Kali Linux, including when accidentally breaking your Kali VM (which of course has never happened to any of us).
+          This set of scripts installs penetration testing tools that are not installed by default in Kali Linux and organizes the tools into folders. These scripts come in handy when installing a fresh version of Kali Linux, including when accidentally breaking your Kali VM.
 
   - title: Certifications
     layout: list
