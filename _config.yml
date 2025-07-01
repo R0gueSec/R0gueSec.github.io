@@ -8,13 +8,15 @@ url: "https://www.roguesec.net"
 baseurl: ""  # No subdirectory since you're using a custom domain
 
 lang: en
-timezone: America/Los_Angeles  # Adjust as needed
+timezone: America/Los_Angeles
+theme: null  # REQUIRED when using a vendored Chirpy theme with GitHub Pages
 
 theme_mode: dark  # Force dark mode by default
 
 # Social and SEO
 github:
   username: R0gueSec
+
 social:
   name: Rogue
   email: you@example.com
