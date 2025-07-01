@@ -86,7 +86,7 @@ content:
           Demonstrates proficiency in core Splunk features including SPL queries, reports, and visualizations.
 
       - layout: left
-        title: Microsoft Certified: Azure Fundamentals (AZ-900)
+        title: "Microsoft Certified: Azure Fundamentals (AZ-900)"
         sub_title: Microsoft
         completion_date: April 2025
         quote: >
@@ -96,7 +96,7 @@ content:
 
       - layout: left
         title: Blue Team Level 1 (BTL1)
-        sub_title: Security Blue Team (Gold Coin Honors)
+        sub_title: "Security Blue Team (Gold Coin Honors)"
         completion_date: February 2025
         quote: >
           Entry-level certification for defenders and SOC analysts.
@@ -104,7 +104,7 @@ content:
           Demonstrates hands-on experience in threat hunting, SIEM, digital forensics, and incident response.
 
       - layout: left
-        title: Certified Penetration Testing Specialist (CPTS)
+        title: "Certified Penetration Testing Specialist (CPTS)"
         sub_title: Hack The Box
         completion_date: April 2024
         quote: >
@@ -113,7 +113,7 @@ content:
           Validates proficiency in information gathering, enumeration, exploitation, post-exploitation, and reporting.
 
       - layout: left
-        title: Certified Bug Bounty Hunter (CBBH)
+        title: "Certified Bug Bounty Hunter (CBBH)"
         sub_title: Hack The Box
         completion_date: December 2024
         quote: >
