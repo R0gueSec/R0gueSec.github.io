@@ -48,7 +48,7 @@ content:
         sub_title: "Splunk | May 2025"
         completion_date: May 2025
         description: |
-          <div align="left" style="font-size: 1rem;">
+          <div align="left" style="font-size: 3rem;">
           <i>Foundational Splunk certification in search, alerts, and dashboards.</i><br><br>
           • Monitored and analyzed real-time log data from firewalls, endpoint protection, and authentication systems.<br>
           • Built SPL-based alerts for brute-force logins, excessive failed authentications, and privilege escalation attempts.<br>
@@ -60,7 +60,7 @@ content:
         sub_title: "Microsoft | April 2025"
         completion_date: April 2025
         description: |
-          <div align="left" style="font-size: 1rem;">
+          <div align="left" style="font-size: 3rem;">
           <i>Foundational certification in Azure cloud services.</i><br><br>
           • Validated foundational knowledge of Azure cloud architecture and core services relevant to security and operations roles.<br>
           • Identified and worked with key Azure resources, including virtual machines, storage accounts, and virtual networks.<br>
@@ -72,7 +72,7 @@ content:
         sub_title: "Security Blue Team | February 2025"
         completion_date: February 2025
         description: |
-          <div align="left" style="font-size: 1rem;">
+          <div align="left" style="font-size: 3rem;">
           <i>Foundational certification for defenders and SOC analysts.</i><br><br>
           • Performed in-depth log analysis and incident triage using SIEM tools such as Splunk and Elastic Stack in lab-based simulations.<br>
           • Investigated host-based artifacts using tools like Sysmon, Velociraptor, and Autopsy to trace attacker behavior and identify compromise indicators.<br>
@@ -84,7 +84,7 @@ content:
         sub_title: "Hack The Box | April 2024"
         completion_date: April 2024
         description: |
-          <div align="left" style="font-size: 1rem;">
+          <div align="left" style="font-size: 3rem;">
           <i>Offensive security certification for real-world penetration testing scenarios.</i><br><br>
           • Completed full-scope penetration tests of custom Linux and Windows environments with manual exploitation.<br>
           • Conducted enumeration, exploitation, privilege escalation, and lateral movement.<br>
@@ -96,7 +96,7 @@ content:
         sub_title: "Hack The Box | December 2024"
         completion_date: December 2024
         description: |
-          <div align="left" style="font-size: 1rem;">
+          <div align="left" style="font-size: 3rem;">
           <i>Hands-on bug bounty training and labs focusing on real-world exploitation techniques.</i><br><br>
           • Discovered and exploited OWASP Top 10 vulnerabilities in real-world style targets.<br>
           • Practiced responsible disclosure workflows and report writing.<br>
@@ -108,7 +108,7 @@ content:
         sub_title: "CompTIA | March 2022"
         completion_date: March 2022
         description: |
-          <div align="left" style="font-size: 1rem;">
+          <div align="left" style="font-size: 3rem;">
           <i>Industry-standard cybersecurity certification.</i><br><br>
           • Covered essential principles for network security, cryptography, risk management, and compliance.<br>
           • Demonstrated baseline knowledge of security architecture, operations, and incident response.<br>
