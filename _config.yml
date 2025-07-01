@@ -95,7 +95,7 @@ content:
           Beginner-level red team simulation featuring common vulnerabilities, misconfigurations, and attack paths seen in real engagements.
         description: | # this will include new lines to allow paragraphs
           Dante is a modern and beginner-friendly Pro Lab that provides the opportunity to learn common penetration testing methodologies and gain familiarity with tools included in the Parrot OS Linux distribution.
-  - title: Certifications
+   - title: Certifications
     layout: list
     content:
       - layout: left
@@ -104,7 +104,7 @@ content:
         completion_date: March 2022
         quote: >
           Industry-standard certification in foundational cybersecurity knowledge.
-        description: >
+        description: |
           Covers essential principles for network security and risk management, and is approved for DoD 8570 compliance.
 
       - layout: left
@@ -113,7 +113,7 @@ content:
         completion_date: December 2024
         quote: >
           Hands-on bug bounty hunting and web app exploitation techniques.
-        description: >
+        description: |
           Demonstrates real-world web exploitation, recon, and report writing across vulnerable HTB targets and labs.
 
       - layout: left
@@ -122,7 +122,7 @@ content:
         completion_date: April 2024
         quote: >
           Intermediate penetration testing certification aligned with real-world infrastructure assessments.
-        description: >
+        description: |
           Validates skills in recon, exploitation, Active Directory attacks, and post-exploitation in simulated corp environments.
 
       - layout: left
@@ -131,7 +131,7 @@ content:
         completion_date: February 2025
         quote: >
           SOC Level 1 analyst certification with honors.
-        description: >
+        description: |
           Includes threat hunting, SIEM analysis, and practical defensive operations. Earned with Gold Coin Honors.
 
       - layout: left
@@ -140,7 +140,7 @@ content:
         completion_date: May 2025
         quote: >
           Foundational Splunk certification in search, alerts, and dashboards.
-        description: >
+        description: |
           Demonstrates proficiency in core Splunk features including SPL queries, reports, and visualizations.
 
       - layout: left
@@ -149,7 +149,7 @@ content:
         completion_date: April 2025
         quote: >
           Entry-level certification in Azure cloud services.
-        description: >
+        description: |
           Demonstrates understanding of cloud concepts, Azure services, workloads, security, privacy, and compliance.
   - title: A Little More About Me
     layout: text
