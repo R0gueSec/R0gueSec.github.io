@@ -6,7 +6,7 @@ permalink: /blue
 
 # Blue Team Labs
 
-Explore real-world scenarios designed to simulate defender challenges and build detection, investigation, and response skills.
+Exploring real-world blue team scenarios designed to simulate defender challenges and help build skills in detection, investigation, and response.
 
 ## Labs
 
