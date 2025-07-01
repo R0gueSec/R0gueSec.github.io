@@ -1,139 +1,6 @@
-# Site
-repository: R0gueSec/R0gueSec.github.io
-favicon: images/favicon.ico
-
-# Content configuration version
-version: 2
-
-# Personal info
-name: RogueSec
-title: Penetration Tester
-email: hello @ roguesec [dot] net
-website: www.roguesec.net
-
-# Dark Mode (true/false/never)
-darkmode: false
-
-# Social links
-twitter_username: RogueSec_
-github_username:  R0gueSec
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-#instagram_username: jameswgrant
-#linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-#youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-#additional_links:
-#- title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
-# about_title: About Me
-about_profile_image: images/Cyclops-cropped.png
-about_content: | # this will include new lines to allow paragraphs
-  Hi, RogueSec is the name and Penetration Testing is my game. After completing the Certified Penetration Tester (CPTS) certification from Hack the Box, I decided to showcase all my accomplishments and work so far on one page. If you are a hiring manager, recruiter, or have any questions, please don't hesitate to reach out to me via email.
-
-content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Command Injection Payloads
-        link: https://github.com/R0gueSec/Payloads
-        quote: >
-          Command Injection payloads for Linux and Windows
-        description: | # this will include new lines to allow paragraphs
-          This project includes various lists of commands to inject into vulnerable web applications hosted on either Linux or Windows. The commands are separated into distinct payloads to facilitate differing stages of testing for Command Injections. Some payloads allow for testing of the 'whoami' command, while others allow attackers to test for various obfuscations of spaces or operators. My personal favorites are the Operators-Base64-* payloads, which allow an attacker to inject any command simply by using a Base64-encoded version of the command and using it in the payload. I have found that this technique is the jackpot of Command Injection attacks.
-      - layout: top-middle
-        title: Tools Downloaders
-        link: https://github.com/R0gueSec/ToolsDownloaders
-        quote: >
-          A set of scripts to install common, but not default, penetration testing tools in Kali Linux
-        description: | # this will include new lines to allow paragraphs
-          This set of scripts installs penetration testing tools that are not installed by default in Kali Linux and organizes the tools into folders. These scripts come in handy when installing a fresh version of Kali Linux, including when accidentally breaking your Kali VM (which of course has never happened to any of us).
-  - title: HTB Pro Labs # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Offshore
-        sub_title: Level 2 Red Team Operator
-        completion_date: December 20, 2023
-        quote: >
-          Intermediate-level red team simulation featuring interactive users and modern, hardened operating systems.
-        description: | # this will include new lines to allow paragraphs
-          Offshore Pro Lab is an advanced infrastructure lab that simulates the look and feel of a real-world corporate network.
-      - layout: left
-        title: Zephyr
-        sub_title: Level 1 Red Team Operator
-        completion_date: December 07, 2023
-        quote: >
-          Intermediate-level red team simulation Active Directory environment
-        description: | # this will include new lines to allow paragraphs
-          Zephyr is an intermediate-level red team simulation environment, designed to be attacked as a means of learning and honing your engagement skills and improving your active directory enumeration and exploitation skills. Zephyr includes a wide range of essential Active Directory flaws and misconfigurations to allow players to get a foothold in corporate environments.
-      - layout: left
-        title: Dante
-        sub_title: Level 1 Red Team Operator
-        completion_date: October 23, 2023
-        quote: >
-          Beginner-level red team simulation featuring common vulnerabilities, misconfigurations, and attack paths seen in real engagements.
-        description: | # this will include new lines to allow paragraphs
-          Dante is a modern and beginner-friendly Pro Lab that provides the opportunity to learn common penetration testing methodologies and gain familiarity with tools included in the Parrot OS Linux distribution.
-  - title: Certifications
+- title: Certifications
   layout: list
   content:
-    - layout: left
-      title: CompTIA Security+
-      sub_title: CompTIA
-      completion_date: March 2022
-      quote: >
-        Industry-standard certification in foundational cybersecurity knowledge.
-      description: >
-        Covers essential principles for network security and risk management, and is approved for DoD 8570 compliance.
-
-    - layout: left
-      title: Certified Bug Bounty Hunter (CBBH)
-      sub_title: Hack The Box
-      completion_date: December 2024
-      quote: >
-        Offensive security certification focused on bug bounty methodologies.
-      description: >
-        Emphasizes modern web vulnerabilities and in-depth exploitation using Hack The Box labs.
-
-    - layout: left
-      title: Certified Penetration Testing Specialist (CPTS)
-      sub_title: Hack The Box
-      completion_date: April 2024
-      quote: >
-        Advanced penetration testing certification with real-world simulated labs.
-      description: >
-        Covers network, web, and Active Directory exploitation aligned with OSCP-level techniques.
-
-    - layout: left
-      title: Blue Team Level 1 (BTL1)
-      sub_title: Security Blue Team
-      completion_date: February 2025
-      quote: >
-        Practical blue team certification for SOC analysts and defenders.
-      description: >
-        Focuses on detection, incident response, and SIEM operations. Earned Gold Coin Honors.
-
     - layout: left
       title: Splunk Core Certified User
       sub_title: Splunk
@@ -144,33 +11,46 @@ content:
         Demonstrates proficiency in core Splunk features including SPL queries, reports, and visualizations.
 
     - layout: left
-  title: "Microsoft Certified: Azure Fundamentals (AZ-900)"
-  sub_title: Microsoft
-  completion_date: April 2025
-  quote: >
-    Entry-level certification in Azure cloud services.
-  description: >
-    Demonstrates understanding of cloud concepts, Azure services, workloads, security, privacy, and compliance.
+      title: Microsoft Certified: Azure Fundamentals (AZ-900)
+      sub_title: Microsoft
+      completion_date: April 2025
+      quote: >
+        Entry-level certification in Azure cloud services.
+      description: >
+        Demonstrates understanding of cloud concepts, Azure services, workloads, security, privacy, and compliance.
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in penetration testing, some of my other interests and hobbies are:
-      - Retrowave Music
-      - Gaming
-      - Bitcoin
-      - Adobe Photoshop
+    - layout: left
+      title: Blue Team Level 1 (BTL1)
+      sub_title: Security Blue Team (Gold Coin Honors)
+      completion_date: February 2025
+      quote: >
+        Entry-level certification for defenders and SOC analysts.
+      description: >
+        Demonstrates hands-on experience in threat hunting, SIEM, digital forensics, and incident response.
 
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
+    - layout: left
+      title: Certified Penetration Testing Specialist (CPTS)
+      sub_title: Hack The Box
+      completion_date: April 2024
+      quote: >
+        Offensive security certification for real-world penetration testing scenarios.
+      description: >
+        Validates proficiency in information gathering, enumeration, exploitation, post-exploitation, and reporting.
 
-# Build settings
-remote_theme: sproogen/resume-theme
+    - layout: left
+      title: Certified Bug Bounty Hunter (CBBH)
+      sub_title: Hack The Box
+      completion_date: December 2024
+      quote: >
+        Hands-on bug bounty training and labs focusing on real-world exploitation techniques.
+      description: >
+        Demonstrates skills in reconnaissance, vulnerability discovery, and responsible disclosure through practical HTB targets.
 
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
- - jekyll-seo-tag
+    - layout: left
+      title: CompTIA Security+
+      sub_title: CompTIA
+      completion_date: March 2022
+      quote: >
+        Industry-standard certification in foundational cybersecurity knowledge.
+      description: >
+        Covers essential principles for network security and risk management, and is approved for DoD 8570 compliance.
