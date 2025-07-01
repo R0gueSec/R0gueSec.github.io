@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Blue Team Labs
 permalink: /blue
 ---
