@@ -1,0 +1,1 @@
+This folder is required for Jekyll. Placeholder file to ensure it uploads to GitHub.
