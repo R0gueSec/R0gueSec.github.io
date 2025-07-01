@@ -18,26 +18,26 @@ darkmode: false
 twitter_username: RogueSec_
 github_username: R0gueSec
 
-# Navigation bar links
+# Navigation
 navigation:
   - title: Home
     url: /
   - title: Blue Team Labs
     url: /labs
   - title: Red Team Labs
-    url: /redteam
+    url: /red
   - title: Tools
     url: /tools
 
 # About Section
 about_profile_image: images/Cyclops-cropped.png
 about_content: |
-  Hi, RogueSec is the name and Penetration Testing is my game. After completing the Certified Penetration Tester (CPTS) certification from Hack The Box, I decided to showcase all my accomplishments and work so far on one page. If you are a hiring manager, recruiter, or have any questions, please don't hesitate to reach out to me via email.
+  Hi, RogueSec is the name and Penetration Testing is my game. After completing the Certified Penetration Tester (CPTS) certification from Hack the Box, I decided to showcase all my accomplishments and work so far on one page. If you are a hiring manager, recruiter, or have any questions, please don't hesitate to reach out to me via email.
 
-  ➤ Explore my labs:
-  - [Blue Team Labs](https://www.roguesec.net/labs)
-  - [Red Team Labs](https://www.roguesec.net/redteam)
-  - [Tools](https://www.roguesec.net/tools)
+  You can explore:
+  - [Blue Team Labs](/labs)
+  - [Red Team Labs](/red)
+  - [Tools](/tools)
 
 content:
   - title: Certifications
@@ -47,43 +47,81 @@ content:
         title: Splunk Core Certified User
         sub_title: Splunk | May 2025
         completion_date: May 2025
-        description: >
-          Foundational Splunk certification in search, alerts, dashboards, and visualizations using SPL queries and reports.
+        quote: >
+          Demonstrates practical experience in log analysis, alerting, and incident detection using Splunk.
+        description: |
+          • Monitored and analyzed real-time logs from firewalls, endpoint protection, and authentication systems  
+          • Built SPL-based alerts for brute-force attempts, privilege escalation, and unauthorized access  
+          • Created dashboards and reports to support daily SOC operations and threat investigations  
+          • Applied field extractions and event correlation to identify and escalate notable events  
 
       - layout: left
-        title: "Microsoft Certified: Azure Fundamentals (AZ-900)"
+        title: Microsoft Certified: Azure Fundamentals (AZ-900)
         sub_title: Microsoft | April 2025
         completion_date: April 2025
-        description: >
-          Foundational certification in Microsoft Azure cloud concepts, core services, workloads, security, governance, and compliance.
+        quote: >
+          Foundational certification in Azure cloud architecture, services, and built-in security tools.
+        description: |
+          • Gained understanding of Azure core services, architecture, and resource models  
+          • Identified and worked with Azure virtual machines, networks, storage accounts, and containers  
+          • Reviewed cloud security models including identity, role-based access control, and Microsoft Defender for Cloud  
+          • Applied cloud governance and compliance principles through built-in Azure Policy and Secure Score  
 
       - layout: left
         title: Blue Team Level 1 (BTL1) (Gold Coin Honors)
-        sub_title: "Security Blue Team | February 2025"
+        sub_title: Security Blue Team | February 2025
         completion_date: February 2025
-        description: >
-          Foundational hands-on certification in blue team operations, covering threat hunting, SIEM, digital forensics, and incident response workflows.
+        quote: >
+          Practical blue team certification in threat detection, digital forensics, and SOC tooling.
+        description: |
+          • Investigated incidents using live forensic data and endpoint telemetry with tools like Velociraptor and Autopsy  
+          • Wrote detection queries for SIEM platforms (Splunk, ELK) to hunt for suspicious behaviors  
+          • Performed alert triage and log correlation during hands-on simulations in a realistic SOC lab  
+          • Detected attacker lateral movement, privilege escalation, and persistence in lab scenarios  
 
       - layout: left
-        title: "Certified Penetration Testing Specialist (CPTS)"
+        title: Certified Penetration Testing Specialist (CPTS)
         sub_title: Hack The Box | April 2024
         completion_date: April 2024
-        description: >
-          Offensive security certification focused on real-world penetration testing scenarios involving enumeration, exploitation, post-exploitation, and reporting.
+        quote: >
+          Offensive security certification focused on full-scope penetration testing operations.
+        description: |
+          • Gained shell access through realistic exploits involving file inclusion, insecure deserialization, and SQLi  
+          • Performed manual and tool-assisted enumeration, privilege escalation, and pivoting  
+          • Conducted Active Directory enumeration and exploitation, including kerberoasting and AS-REP roasting  
+          • Delivered a full penetration test report with findings, risk ratings, and remediation guidance  
 
       - layout: left
-        title: "Certified Bug Bounty Hunter (CBBH)"
+        title: Certified Bug Bounty Hunter (CBBH)
         sub_title: Hack The Box | December 2024
         completion_date: December 2024
-        description: >
-          Practical certification based on bug bounty methodologies, covering reconnaissance, vulnerability discovery, and responsible disclosure through HTB labs.
+        quote: >
+          Applied bug bounty techniques in practical scenarios to identify and exploit real-world web vulnerabilities.
+        description: |
+          • Performed reconnaissance using OSINT, subdomain enumeration, and JavaScript parsing  
+          • Exploited common web flaws including XSS, IDOR, SSRF, and logic bugs in Hack The Box web labs  
+          • Developed proof-of-concepts to simulate real attack chains for responsible disclosure  
+          • Understood bounty program workflows including report writing, triage, and patch validation  
 
       - layout: left
         title: CompTIA Security+
         sub_title: CompTIA | March 2022
         completion_date: March 2022
-        description: >
-          Industry-standard certification in foundational cybersecurity concepts including network security, risk management, and compliance (DoD 8570 approved).
+        quote: >
+          Core cybersecurity certification covering network security, access control, and threat management.
+        description: |
+          • Demonstrated understanding of secure network design, protocols, and defense-in-depth strategies  
+          • Familiar with identity and access management concepts including multifactor authentication  
+          • Learned basic incident response procedures and threat intelligence lifecycle  
+          • Meets DoD 8570 requirements for Information Assurance Technical (IAT) Level II roles  
+
+  - title: A Little More About Me
+    layout: text
+    content: |
+      Alongside my interests in penetration testing, some of my other interests and hobbies are:
+      - Agentic AI
+      - Decentralized Systems
+      - Red Teaming
 
 # Footer
 footer_show_references: true
@@ -96,4 +134,4 @@ sass:
   style: compressed
 
 plugins:
-  - jekyll-seo-tag
+ - jekyll-seo-tag
