@@ -1,0 +1,58 @@
+title: RogueSec
+tagline: Blue Team Defender | Penetration Tester
+description: Personal site for David Marrufo's certifications, labs, and tools.
+lang: en
+timezone: America/Los_Angeles
+url: "https://www.roguesec.net"
+baseurl: ""
+
+theme: jekyll-theme-chirpy
+
+author:
+  name: David Marrufo
+  email: hello@roguesec.net
+
+github:
+  username: R0gueSec
+
+social:
+  name: David Marrufo
+  email: hello@roguesec.net
+  links:
+    - https://github.com/R0gueSec
+
+paginate: 10
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+      permalink: /posts/:title/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
