@@ -25,19 +25,19 @@ about_content: |
 
 content:
 
-    - title: Blue Team Labs
+  - title: Blue Team Labs
     layout: list
     content:
       - layout: left
         title: Home Labs Index
-        sub_title: labs/
+        sub_title: Real-world blue team scenarios and home lab investigations
         link: /labs
         quote: >
-          Real-world blue team scenarios and home lab investigations.
+          Explore hands-on defensive investigations including threat hunting, anomaly detection, and incident response simulations.
         description: >
-          Explore my growing collection of hands-on defensive labs including threat hunting, anomaly detection, and incident response simulations.
+          Click the title to view my full collection of Blue Team lab writeups and investigations.
 
-  - title: Red Team Labs
+  - title: Enterprise-Scale Attack Simulation Environments
     layout: list
     content:
       - layout: left
