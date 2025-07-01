@@ -18,11 +18,6 @@ darkmode: false
 twitter_username: RogueSec_
 github_username: R0gueSec
 
-navigation:
-  - title: Home
-    url: /
-  - title: Labs
-    url: /labs
 
 # About Section
 about_profile_image: images/Cyclops-cropped.png
@@ -30,26 +25,20 @@ about_content: |
   Hi, RogueSec is the name and Penetration Testing is my game. After completing the Certified Penetration Tester (CPTS) certification from Hack the Box, I decided to showcase all my accomplishments and work so far on one page. If you are a hiring manager, recruiter, or have any questions, please don't hesitate to reach out to me via email.
 
 content:
-  - title: Projects
+
+  - title: Blue Team Labs
     layout: list
     content:
       - layout: top-middle
-        title: Command Injection Payloads
-        link: https://github.com/R0gueSec/Payloads
+        title: Home Labs Index
+        link: /labs
         quote: >
-          Command Injection payloads for Linux and Windows
-        description: |
-          This project includes various lists of commands to inject into vulnerable web applications hosted on either Linux or Windows. The commands are separated into distinct payloads to facilitate differing stages of testing for Command Injections. Some payloads allow for testing of the 'whoami' command, while others allow attackers to test for various obfuscations of spaces or operators. My personal favorites are the Operators-Base64-* payloads, which allow an attacker to inject any command simply by using a Base64-encoded version of the command and using it in the payload. I have found that this technique is the jackpot of Command Injection attacks.
+          Real-world blue team scenarios and home lab investigations.
+        description: >
+          Explore my growing collection of hands-on defensive labs including threat hunting, anomaly detection, and response.
 
-      - layout: top-middle
-        title: Tools Downloaders
-        link: https://github.com/R0gueSec/ToolsDownloaders
-        quote: >
-          A set of scripts to install common, but not default, penetration testing tools in Kali Linux
-        description: |
-          This set of scripts installs penetration testing tools that are not installed by default in Kali Linux and organizes the tools into folders. These scripts come in handy when installing a fresh version of Kali Linux, including when accidentally breaking your Kali VM (which of course has never happened to any of us).
-
-  - title: HTB Pro Labs
+  
+  - title: Enterprise-Scale Attack Simulation Environments
     layout: list
     content:
       - layout: left
@@ -78,6 +67,25 @@ content:
           Beginner-level red team simulation featuring common vulnerabilities, misconfigurations, and attack paths seen in real engagements.
         description: |
           Dante is a modern and beginner-friendly Pro Lab that provides the opportunity to learn common penetration testing methodologies and gain familiarity with tools included in the Parrot OS Linux distribution.
+
+- title: Tools
+    layout: list
+    content:
+      - layout: top-middle
+        title: Command Injection Payloads
+        link: https://github.com/R0gueSec/Payloads
+        quote: >
+          Command Injection payloads for Linux and Windows
+        description: |
+          This project includes various lists of commands to inject into vulnerable web applications hosted on either Linux or Windows. The commands are separated into distinct payloads to facilitate differing stages of testing for Command Injections. Some payloads allow for testing of the 'whoami' command, while others allow attackers to test for various obfuscations of spaces or operators. My personal favorites are the Operators-Base64-* payloads, which allow an attacker to inject any command simply by using a Base64-encoded version of the command and using it in the payload. I have found that this technique is the jackpot of Command Injection attacks.
+
+      - layout: top-middle
+        title: Tools Downloaders
+        link: https://github.com/R0gueSec/ToolsDownloaders
+        quote: >
+          A set of scripts to install common, but not default, penetration testing tools in Kali Linux
+        description: |
+          This set of scripts installs penetration testing tools that are not installed by default in Kali Linux and organizes the tools into folders. These scripts come in handy when installing a fresh version of Kali Linux, including when accidentally breaking your Kali VM (which of course has never happened to any of us).
 
   - title: Certifications
     layout: list
