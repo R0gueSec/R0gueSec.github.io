@@ -16,7 +16,7 @@ theme_mode: dark  # Force dark mode by default
 github:
   username: R0gueSec
 social:
-  name: David Marrufo
+  name: Rogue
   email: you@example.com
   links:
     - https://github.com/R0gueSec
