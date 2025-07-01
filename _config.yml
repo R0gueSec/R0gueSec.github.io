@@ -18,26 +18,21 @@ darkmode: false
 twitter_username: RogueSec_
 github_username: R0gueSec
 
-# Navigation
+# Navigation Links
 navigation:
   - title: Home
     url: /
-  - title: Blue Team Labs
+  - title: Labs
     url: /labs
   - title: Red Team Labs
-    url: /red
+    url: /redteam
   - title: Tools
     url: /tools
 
 # About Section
 about_profile_image: images/Cyclops-cropped.png
 about_content: |
-  Hi, RogueSec is the name and Penetration Testing is my game. After completing the Certified Penetration Tester (CPTS) certification from Hack the Box, I decided to showcase all my accomplishments and work so far on one page. If you are a hiring manager, recruiter, or have any questions, please don't hesitate to reach out to me via email.
-
-  You can explore:
-  - [Blue Team Labs](/labs)
-  - [Red Team Labs](/red)
-  - [Tools](/tools)
+  Hi, RogueSec is the name and Penetration Testing is my game. After completing certifications like CPTS and BTL1 (Gold Coin Honors), I’ve built this portfolio to showcase my certifications, blue and red team lab work, and custom-built tooling. If you’re interested in exploring my investigations, attack simulations, or Python tooling, check out the Labs, Red Team Labs, or Tools pages above.
 
 content:
   - title: Certifications
@@ -48,80 +43,66 @@ content:
         sub_title: Splunk | May 2025
         completion_date: May 2025
         quote: >
-          Demonstrates practical experience in log analysis, alerting, and incident detection using Splunk.
+          Foundational Splunk certification in search, alerts, and dashboards.
         description: |
-          • Monitored and analyzed real-time logs from firewalls, endpoint protection, and authentication systems  
-          • Built SPL-based alerts for brute-force attempts, privilege escalation, and unauthorized access  
-          • Created dashboards and reports to support daily SOC operations and threat investigations  
-          • Applied field extractions and event correlation to identify and escalate notable events  
+          • Monitored and analyzed real-time log data from firewalls, endpoint protection, and authentication systems.  
+          • Built SPL-based alerts for brute-force logins, excessive failed authentications, and privilege escalation attempts.  
+          • Familiar with event correlation, field extractions, and identifying notable events aligned with SOC playbooks.
 
       - layout: left
         title: Microsoft Certified: Azure Fundamentals (AZ-900)
         sub_title: Microsoft | April 2025
         completion_date: April 2025
         quote: >
-          Foundational certification in Azure cloud architecture, services, and built-in security tools.
+          Foundational certification in Azure cloud architecture and security features.
         description: |
-          • Gained understanding of Azure core services, architecture, and resource models  
-          • Identified and worked with Azure virtual machines, networks, storage accounts, and containers  
-          • Reviewed cloud security models including identity, role-based access control, and Microsoft Defender for Cloud  
-          • Applied cloud governance and compliance principles through built-in Azure Policy and Secure Score  
+          • Validated foundational knowledge of Azure services relevant to security and operations roles.  
+          • Understood Azure compute, storage, and networking services including VMs and VNets.  
+          • Gained awareness of Azure Defender, compliance offerings, and governance controls.
 
       - layout: left
         title: Blue Team Level 1 (BTL1) (Gold Coin Honors)
         sub_title: Security Blue Team | February 2025
         completion_date: February 2025
         quote: >
-          Practical blue team certification in threat detection, digital forensics, and SOC tooling.
+          Hands-on cyber defense certification for SOC analysts and incident responders.
         description: |
-          • Investigated incidents using live forensic data and endpoint telemetry with tools like Velociraptor and Autopsy  
-          • Wrote detection queries for SIEM platforms (Splunk, ELK) to hunt for suspicious behaviors  
-          • Performed alert triage and log correlation during hands-on simulations in a realistic SOC lab  
-          • Detected attacker lateral movement, privilege escalation, and persistence in lab scenarios  
+          • Performed in-depth log analysis and triage using Splunk and Elastic Stack in lab simulations.  
+          • Investigated host-based artifacts with Sysmon, Velociraptor, and Autopsy to trace attacker behavior.  
+          • Built detection rules and hunting queries to identify malicious activity.
 
       - layout: left
         title: Certified Penetration Testing Specialist (CPTS)
         sub_title: Hack The Box | April 2024
         completion_date: April 2024
         quote: >
-          Offensive security certification focused on full-scope penetration testing operations.
+          Real-world penetration testing certification based on enterprise attack paths.
         description: |
-          • Gained shell access through realistic exploits involving file inclusion, insecure deserialization, and SQLi  
-          • Performed manual and tool-assisted enumeration, privilege escalation, and pivoting  
-          • Conducted Active Directory enumeration and exploitation, including kerberoasting and AS-REP roasting  
-          • Delivered a full penetration test report with findings, risk ratings, and remediation guidance  
+          • Demonstrated full-scope testing from external recon through post-exploitation and reporting.  
+          • Attacked hardened Windows and Linux machines with AV/EDR evasion.  
+          • Proficient in buffer overflows, web exploitation, lateral movement, and report writing.
 
       - layout: left
         title: Certified Bug Bounty Hunter (CBBH)
         sub_title: Hack The Box | December 2024
         completion_date: December 2024
         quote: >
-          Applied bug bounty techniques in practical scenarios to identify and exploit real-world web vulnerabilities.
+          Hands-on bug bounty certification focused on real-world web app vulnerabilities.
         description: |
-          • Performed reconnaissance using OSINT, subdomain enumeration, and JavaScript parsing  
-          • Exploited common web flaws including XSS, IDOR, SSRF, and logic bugs in Hack The Box web labs  
-          • Developed proof-of-concepts to simulate real attack chains for responsible disclosure  
-          • Understood bounty program workflows including report writing, triage, and patch validation  
+          • Identified and exploited common OWASP Top 10 issues in HTB bug bounty labs.  
+          • Practiced responsible disclosure workflows with real-world exploitation techniques.  
+          • Developed methodology for recon, fuzzing, and bypassing WAFs.
 
       - layout: left
         title: CompTIA Security+
         sub_title: CompTIA | March 2022
         completion_date: March 2022
         quote: >
-          Core cybersecurity certification covering network security, access control, and threat management.
+          Core cybersecurity certification for security fundamentals and risk management.
         description: |
-          • Demonstrated understanding of secure network design, protocols, and defense-in-depth strategies  
-          • Familiar with identity and access management concepts including multifactor authentication  
-          • Learned basic incident response procedures and threat intelligence lifecycle  
-          • Meets DoD 8570 requirements for Information Assurance Technical (IAT) Level II roles  
-
-  - title: A Little More About Me
-    layout: text
-    content: |
-      Alongside my interests in penetration testing, some of my other interests and hobbies are:
-      - Agentic AI
-      - Decentralized Systems
-      - Red Teaming
+          • Built a foundation in security architecture, cryptography, identity, and compliance.  
+          • Studied secure network design, threat modeling, and security policy implementation.  
+          • Approved for DoD 8570 and widely recognized in the industry.
 
 # Footer
 footer_show_references: true
@@ -134,4 +115,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
