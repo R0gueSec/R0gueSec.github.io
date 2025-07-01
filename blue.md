@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blue Team Labs
-permalink: /labs
+permalink: /blue
 ---
 
 # Blue Team Labs
