@@ -4,9 +4,6 @@ icon: fas fa-info-circle
 order: 1
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
-
 # 👋 About Me
 
 I'm **David Marrufo**, a cybersecurity practitioner with a focus on both offensive and defensive security. I blend hands-on red teaming, threat detection, and threat intelligence with a background in education and pedagogy. My goal is to make cybersecurity more accessible and actionable — whether in blue team operations or adversary simulation.
