@@ -33,7 +33,6 @@ I’m currently building **RogueSec**, a portfolio and knowledge-sharing site wh
 - **Microsoft Certified: Azure Fundamentals (AZ-900)** — *Apr 2025*
 
 ---
-
 ## 🔗 Elsewhere
 - [GitHub](https://github.com/R0gueSec)
 - [Twitter/X](https://www.x.com/RogueSec_)
