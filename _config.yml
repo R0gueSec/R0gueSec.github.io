@@ -144,13 +144,13 @@ content:
         Demonstrates proficiency in core Splunk features including SPL queries, reports, and visualizations.
 
     - layout: left
-      title: "Microsoft Certified: Azure Fundamentals (AZ-900)"
-      sub_title: Microsoft
-      completion_date: April 2025
-      quote: >
-        Entry-level certification in Azure cloud services.
-      description: >
-        Demonstrates understanding of cloud concepts, Azure services, workloads, security, privacy, and compliance.
+  title: "Microsoft Certified: Azure Fundamentals (AZ-900)"
+  sub_title: Microsoft
+  completion_date: April 2025
+  quote: >
+    Entry-level certification in Azure cloud services.
+  description: >
+    Demonstrates understanding of cloud concepts, Azure services, workloads, security, privacy, and compliance.
 
   - title: A Little More About Me
     layout: text
