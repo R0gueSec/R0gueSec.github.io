@@ -15,7 +15,7 @@ I focus on both offensive and defensive security — combining red teaming, dete
 
 ## 🚀 Navigate
 
--👨‍💻 [About Me](/about)
+- 👨‍💻 [About Me](/about)
 - 🧩 [Blue Team Labs](/bluelabs)
 - 🛠 [Tools](/tools)
 
