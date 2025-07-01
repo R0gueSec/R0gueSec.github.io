@@ -1,58 +1,81 @@
 # The Site Configuration
 
-# Import the theme
-theme: jekyll-theme-chirpy
+# Do NOT include 'theme:' if you're using Chirpy locally (not as a remote theme)
 
+# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 lang: en
+
+# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: America/Los_Angeles
 
-# SEO settings
+# jekyll-seo-tag settings
 title: RogueSec
 tagline: Blue Team Defender | Penetration Tester
 description: >-
-  Cybersecurity professional showcasing practical labs, tools, and certifications in offensive and defensive security.
+  Portfolio of RogueSec, featuring cyber labs, tools, walkthroughs, and certification achievements.
 
+# Fill in the protocol & hostname for your site.
+# Note: no trailing slash
 url: "https://www.roguesec.net"
 
-# Social info
 github:
   username: R0gueSec
+
 twitter:
   username: RogueSec_
+
 social:
-  name: David Marrufo
+  name: RogueSec
   email: hello@roguesec.net
   links:
     - https://twitter.com/RogueSec_
     - https://github.com/R0gueSec
-    - mailto:hello@roguesec.net
 
 webmaster_verifications:
   google:
   bing:
+  alexa:
+  yandex:
+  baidu:
+  facebook:
 
-# Analytics (optional for now)
 analytics:
   google:
+    id:
+  goatcounter:
+    id:
+  umami:
+    id:
+    domain:
+  matomo:
+    id:
+    domain:
+  cloudflare:
+    id:
+  fathom:
     id:
 
 pageviews:
   provider:
 
-theme_mode: dark
+theme_mode:  # [light | dark] — leave empty to use system preference with toggle
+
 cdn:
 
-# Avatar (optional image hosted in assets or CDN)
-avatar: /assets/img/avatar.png
+avatar:  # leave empty unless you want a custom sidebar avatar
 
-# Social preview image (optional for Twitter/OG)
-social_preview_image: /assets/img/social-card.png
+social_preview_image:  # used in SEO meta tags (can override per post)
 
 toc: true
+
 comments:
   provider:
 
-# PWA settings
+assets:
+  self_host:
+    enabled:
+    env:
+
 pwa:
   enabled: true
   cache:
@@ -60,7 +83,10 @@ pwa:
     deny_paths:
 
 paginate: 10
-baseurl: ""
+
+baseurl: ""  # leave blank for GitHub Pages root
+
+# ------------ DO NOT EDIT BELOW UNLESS NEEDED ------------------
 
 kramdown:
   footnote_backlink: "&#8617;&#xfe0e;"
