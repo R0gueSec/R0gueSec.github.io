@@ -56,9 +56,7 @@ fd9e727da26fe2a31721f4e1ef3cdb34
 
 VirusTotal Search Results using MD5 Hash:
 
-[VirusTotal](https://www.virustotal.com/gui/file/739d9923e2ddf467ce9f997c82d36bfb72accc90acc40573eaa5e1abb2097cd8)
-
-[VirusTotal_pwncrypt_ps1.pdf](/assets/img/bluelabs/new-zero-day/VirusTotal_pwncrypt_ps1.pdf)
+[VirusTotal Page for MD5 Hash Results](https://www.virustotal.com/gui/file/739d9923e2ddf467ce9f997c82d36bfb72accc90acc40573eaa5e1abb2097cd8)
 
 Observe DeviceProcessEvents for the past 10 minutes of the unusual activity found
 
