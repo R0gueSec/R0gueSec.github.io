@@ -13,8 +13,8 @@ This section of my portfolio highlights completed labs and exercises related to 
 
 ## 🛡️ Vulnerability Management
 
-- [Vulnerability Management – Windows](/bluelabs/vuln-windows)
-- [Vulnerability Management – Linux](/bluelabs/vuln-linux)
+- [Vulnerability Management – Windows (Coming Soon)](/bluelabs/vuln-windows)
+- [Vulnerability Management – Linux (Coming Soon)](/bluelabs/vuln-linux)
 
 ---
 
@@ -24,4 +24,4 @@ This section of my portfolio highlights completed labs and exercises related to 
 - [Sudden Network Slowdowns](/posts/hunt-network-slowdowns)
 - [Suspected Data Exfiltration by an Employee](/posts/suspected-data-exfil)
 - [New Zero-Day Announced on News](/posts/new-zero-day)
-- [Unauthorized Tor Usage](/posts/unauth-tor-usage)
+- [Unauthorized Tor Usage (Coming Soon)](/posts/unauth-tor-usage)
