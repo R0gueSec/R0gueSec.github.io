@@ -1,5 +1,5 @@
 ---
-title: "Devices Exposed to the Internet"
+title: "Virtual Machine Brute Force Detection"
 date: 2025-07-01
 categories: [Blue Team, Incident Response]
 tags: [windows, sentinel, mssentinel, azure, bruteforce, detection]
