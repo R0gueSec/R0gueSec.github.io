@@ -1,5 +1,5 @@
 ---
-title: "Unauthorized Tor Usage"
+title: "Unauthorized TOR Usage"
 date: 2025-07-01
 categories: [Blue Team, Threat Hunting, Incident Response]
 tags: [windows, sentinel, threathunting, edr, msdefenderforendpoint, mssentinel, azure, tor, unauthorizedapplications]
@@ -15,6 +15,7 @@ tags: [windows, sentinel, threathunting, edr, msdefenderforendpoint, mssentinel,
 - **EDR:** Microsoft Defender for Endpoint
 - **SIEM:** Microsoft Sentinel
 - **VM:** Windows 10
+- **Application:** TOR (The Onion Router)
 
 # Performing the Threat Hunt
 
