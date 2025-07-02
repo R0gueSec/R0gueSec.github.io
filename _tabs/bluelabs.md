@@ -24,4 +24,4 @@ This section of my portfolio highlights completed labs and exercises related to 
 - [Sudden Network Slowdowns](/posts/hunt-network-slowdowns)
 - [Suspected Data Exfiltration by an Employee](/posts/suspected-data-exfil)
 - [New Zero-Day Announced on News](/posts/new-zero-day)
-- [Unauthorized Tor Usage (Coming Soon)](/posts/unauth-tor-usage)
+- [Unauthorized Tor Usage](/posts/unauth-tor-usage)
