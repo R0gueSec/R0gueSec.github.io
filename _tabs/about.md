@@ -23,7 +23,7 @@ I’m currently building **roguesec.net**, a portfolio and knowledge-sharing sit
 ## 📜 Certifications
 
 - **Splunk Core Certified User**, Splunk — *May 2025*
-- **Microsoft Certified: Azure Fundamentals (AZ-900)** — *Apr 2025*
+- **Microsoft Certified: Azure Fundamentals (AZ-900)**, Microsoft — *Apr 2025*
 - **Blue Team Level 1 (BTL1) with Gold Coin Honors**, Security Blue Team — *Feb 2025*
 - **Certified Bug Bounty Hunter (CBBH)**, Hack The Box — *Dec 2024*
 - **Certified Penetration Testing Specialist (CPTS)**, Hack The Box — *Apr 2024*
