@@ -15,9 +15,9 @@ tags: [windows, sentinel, azure, bruteforce, detection]
 - **SIEM:** Microsoft Sentinel
 - **VM:** Windows 10
 
-# Scenario 1: Virtual Machine Brute Force Detection
+## Scenario 1: Virtual Machine Brute Force Detection
 
-# Objective:
+## Objective:
 
 Design a Sentinel Scheduled Query Rule within Log Analytics that will discover when the same Remote IP Address has failed to log in to the same local host (Azure VM) 10 times or more within the last 5 hours.
 
@@ -84,7 +84,7 @@ Entities involved in Alert Triggering
 
 ![image.png](/assets/img/bluelabs/vm-bruteforce-detection/image13.png)
 
-# Containment, Eradication, and Recovery
+## Containment, Eradication, and Recovery
 
 We can isolate the affected devices and run anti-virus scans within MDE.
 
