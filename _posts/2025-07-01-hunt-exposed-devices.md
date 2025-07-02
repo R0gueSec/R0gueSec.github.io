@@ -22,7 +22,7 @@ DeviceLogonEvents
 | order by Attempts desc
 ```
 
-![image.png](/assets/img/bluelabs/1.png)
+![image.png](/assets/img/bluelabs/devices-exposed-internet/1.png)
 
 Searching for Successful Logons from the Top 7 Remote IPs from the Previous Query
 
