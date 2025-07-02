@@ -11,17 +11,21 @@ This section of my portfolio highlights completed labs and exercises related to 
 
 ---
 
-## 🛡️ Vulnerability Management
+## 🛡️ Vulnerability Management Scenarios
 
 - [Vulnerability Management – Windows (Coming Soon)](/bluelabs/vuln-windows)
 - [Vulnerability Management – Linux (Coming Soon)](/bluelabs/vuln-linux)
 
 ---
 
-## 🕵️ Threat Hunting Scenarios
+## 🧯 Incident Response Scenarios
 
 - [Devices Exposed to the Internet](/posts/hunt-exposed-devices)
 - [Sudden Network Slowdowns](/posts/hunt-network-slowdowns)
 - [Suspected Data Exfiltration by an Employee](/posts/suspected-data-exfil)
 - [New Zero-Day Announced on News](/posts/new-zero-day)
+
+
+## 🕵️ Threat Hunting Scenarios
+
 - [Unauthorized Tor Usage](/posts/unauth-tor-usage)
