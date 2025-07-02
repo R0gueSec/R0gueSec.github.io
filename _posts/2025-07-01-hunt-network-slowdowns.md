@@ -284,7 +284,7 @@ Based on your detailed threat hunting observations, here are the relevant **MITR
     - Enable **PowerShell Script Block Logging** and **Module Logging** in Group Policy.
     - Look for `Test-NetConnection`, `ForEach`, or custom script references like `portscan.ps1`.
 - **Detect internal port scanning**:
-    - Create detection rules for **high volumes of connection failures** in a short time frame (like your KQL queries did).
+    - Create detection rules for **high volumes of connection failures** in a short time frame.
     - Alert when **sequential ports** or **multiple hosts** are targeted from a single endpoint.
 
 ### 📊 **Sample Sentinel Analytics Rule (KQL)**
@@ -306,7 +306,7 @@ DeviceNetworkEvents
 
 ### 🧼 **Incident Response**
 
-- **Isolate and reimage** the compromised device (as you did).
+- **Isolate and reimage** the compromised device.
 - **Revoke credentials** associated with the `rogueuser` account and force password resets for other potentially exposed accounts.
 
 ### 📁 **Post-Mortem & Lessons Learned**
