@@ -7,9 +7,9 @@ order: 0
 
 # 🧠 RogueSec
 
-Welcome to **RogueSec**, a portfolio and knowledge-sharing platform by cybersecurity practitioner **David Marrufo**.
+Welcome to **roguesec.net**, a portfolio and knowledge-sharing platform by cybersecurity practitioner **RogueSec**.
 
-I focus on both offensive and defensive security — combining red teaming, detection engineering, and CTI with a background in education and research.
+I focus on both offensive and defensive security — combining red teaming, detection engineering, and threat hunting.
 
 ---
 
