@@ -2,7 +2,7 @@
 title: "Devices Exposed to the Internet"
 date: 2025-07-01
 categories: [Blue Team, Threat Hunting, Incident Response]
-tags: [windows, sentinel, threathunting]
+tags: [windows, sentinel, threathunting, edr, msdefenderforendpoint, mssentinel, azure]
 ---
 
 # 🔍 Overview
