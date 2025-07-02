@@ -16,7 +16,7 @@ tags: [windows, sentinel, threathunting, edr, msdefenderforendpoint, mssentinel,
 - **VM:** Windows 10
 
 
-# Scenario 1: Devices Exposed to the Internet
+## Scenario 1: Devices Exposed to the Internet
 
 Finding Remote IPs that have attempted Failed Logins and Sorting by Most Attempts
 
