@@ -20,8 +20,8 @@ This section of my portfolio highlights completed labs and exercises related to 
 
 ## 🕵️ Threat Hunting Scenarios
 
-- [Devices Exposed to the Internet](/bluelabs/hunt-exposed-devices)
-- [Sudden Network Slowdowns](/bluelabs/hunt-network-slowdowns)
-- [Suspected Data Exfiltration by an Employee](/bluelabs/suspected-data-exfil)
-- [New Zero-Day Announced on News](/bluelabs/new-zero-day)
-- [Unauthorized Tor Usage](/bluelabs/unauth-tor-usage)
+- [Devices Exposed to the Internet](/posts/hunt-exposed-devices)
+- [Sudden Network Slowdowns](/posts/hunt-network-slowdowns)
+- [Suspected Data Exfiltration by an Employee](/posts/suspected-data-exfil)
+- [New Zero-Day Announced on News](/posts/new-zero-day)
+- [Unauthorized Tor Usage](/posts/unauth-tor-usage)
