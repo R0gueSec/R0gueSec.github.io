@@ -2,12 +2,18 @@
 title: "Devices Exposed to the Internet"
 date: 2025-07-01
 categories: [Blue Team, Threat Hunting, Incident Response]
-tags: [windows, sentinal, threathunting]
+tags: [windows, sentinel, threathunting]
 ---
 
-## 🔍 Overview
+# 🔍 Overview
 
 > During routine maintenance, the security team is tasked with investigating any VMs in the shared services cluster (handling DNS, Domain Services, DHCP, etc.) that have mistakenly been exposed to the public internet. The goal is to identify any misconfigured VMs and check for potential brute-force login attempts/successes from external sources. During the time the devices were unknowingly exposed to the internet, it’s possible that someone could have actually brute-force logged into some of them since some of the older devices do not have account lockout configured for excessive failed login attempts.
+
+**Tools Used**
+Cloud Platform: Azure
+EDR: Microsoft Defender for Endpoint
+SIEM: Microsoft Sentinel
+VM: Windows 10
 
 
 # Scenario 1: Devices Exposed to the Internet
