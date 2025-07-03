@@ -1,8 +1,24 @@
-# Scenario 3: Potential Impossible Travel
+---
+title: "Potential Impossible Travel"
+date: 2025-07-02
+categories: [Blue Team, Incident Response]
+tags: [windows, sentinel, azure, impossible-travel]
+---
 
-# Part 1: Create Alert Rule (Potential Impossible Travel)
+# 🔍 Overview
 
-## KQL Query to Detect Impossible Travel
+> Sometimes corporations have policies against working outside of designated geographic regions, account sharing (this should be standard), or use of non-corporate VPNs. The following scenario will be used to detect unusual logon behavior by creating an incident if a user's login patterns are too erratic. “Too erratic” can be defined as logging in from multiple geographic regions within a given time period. Whenever a user logs into Azure or authenticates with their main Azure account, logs will be created in the “SigninLogs” table, which is being forwarded to the Log Analytics Workspace being used by Microsoft Sentinel, our SIEM. Within Sentinel, we will define an alert to trigger whenever a user logs into more than one location in a 7 day time period. Not all triggers will be true positives, but it will give us a chance to investigate.
+
+## Tools Used
+- **Cloud Platform:** Azure
+- **SIEM:** Microsoft Sentinel
+- **VM:** Windows 10
+
+## Scenario 3: Potential Impossible Travel
+
+## Part 1: Create Alert Rule (Potential Impossible Travel)
+
+### KQL Query to Detect Impossible Travel
 
 ```powershell
 // Locate Instances of Potential Impossible Travel
@@ -17,7 +33,7 @@ SigninLogs
 
 ```
 
-## MITRE ATT&CK TTPs:
+### MITRE ATT&CK TTPs:
 
 ```powershell
 The Impossible Travel KQL query is best aligned with:
@@ -137,7 +153,7 @@ That is a distance of 2,713 miles.
 
 ![image](/assets/img/bluelabs/potential-impossible-travel/image12.png)
 
-# Containment, Eradication, and Recovery
+## Containment, Eradication, and Recovery
 
 We can disable the user’s account:
 
@@ -149,7 +165,7 @@ We may inspect the user’s data AzureActivity log to see if any suspicious acti
 
 The case was elevated to Tier II and management will discuss with the user if the user has done anything that would explain the impossible travel.
 
-# Post-Incident Activities
+## Post-Incident Activities
 
 We can create a geo-fencing activity within Azure that prevents logins outside of certain regions.
 
