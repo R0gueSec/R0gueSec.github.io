@@ -14,9 +14,7 @@ tags: [windows, sentinel, azure, impossible-travel]
 - **SIEM:** Microsoft Sentinel
 - **VM:** Windows 10
 
-## Scenario 3: Potential Impossible Travel
-
-## Part 1: Create Alert Rule (Potential Impossible Travel)
+## Create Alert Rule (Potential Impossible Travel)
 
 ### KQL Query to Detect Impossible Travel
 
