@@ -50,7 +50,6 @@ Automating response workflows (e.g., disable account, trigger MFA),
 
 Reporting and compliance (e.g., MITRE-aligned dashboards).
 
-Let me know if you'd like a Markdown or JSON version to include in your IR notes.
 ```
 
 ![image](/assets/img/bluelabs/potential-impossible-travel/image.png)
