@@ -5,8 +5,6 @@ categories: [Blue Team, Vulnerability Scanning]
 tags: [windows, azure, tenable, stigs, remediation]
 ---
 
-# Applying STIGs with PowerShell
-
 # Overview
 
 > In order for networking systems to be used within the U.S. Department of Defense (DoD) and other federal agencies, the Defense Information Systems Agency (DISA) developed baseline security configuration standards called Security Technical Implementation Guides, or STIGs. These guides include prescriptive hardening guidelines for Windows operating systems, applications, and network devices. They are designed to reduce the attach surface and ensure compliance with DoD cybersecurity policies, such as NIST SP 800-53. For Windows 10, an STIG might include ensuring that “Minimum password length” is set to 14 characters, Set “Audit Log Retention Method” to “Overwrite events as needed”, or Disabling SMBv1 protocol. In this lab, we will cover how to use Tenable to conduct a compliance check on a Windows machine and discover STIGs that need remediation. Next, we will manually remediate the STIG and then automatically remediate it using a PowerShell script.
