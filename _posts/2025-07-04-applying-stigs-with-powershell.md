@@ -31,7 +31,7 @@ Turn off all firewalls
 
 On machine `rogue-stigs`
 
-![image.png](/assets/img/bluelabs/applying-stigs-with-powershell//assets/img/bluelabs/applying-stigs-with-powershell/image.png)
+![image.png](/assets/img/bluelabs/applying-stigs-with-powershell/image.png)
 
 ## Setting Up Tenable to Conduct Compliance Audit and Policy Scan
 
