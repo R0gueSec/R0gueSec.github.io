@@ -1,8 +1,8 @@
 ---
 title: "Programmatic Remediation in Windows"
 date: 2025-07-05
-categories: [Blue Team, Threat Hunting, Incident Response]
-tags: [windows, sentinel, threathunting, edr, msdefenderforendpoint, mssentinel, azure, networkslowdown]
+categories: [Blue Team, Vulnerability Management]
+tags: [windows, azure, tenable, powershell]
 ---
 
 # Overview
