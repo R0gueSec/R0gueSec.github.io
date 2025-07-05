@@ -1,8 +1,8 @@
 ---
-title: "Sudden Network Slowdowns"
-date: 2025-07-01
-categories: [Blue Team, Threat Hunting, Incident Response]
-tags: [windows, sentinel, threathunting, edr, msdefenderforendpoint, mssentinel, azure, networkslowdown]
+title: "Vulnerability Management - Windows"
+date: 2025-07-05
+categories: [Blue Team, Vulnerability Management]
+tags: [windows, azure, tenable]
 ---
 
 # 🔍 Overview
