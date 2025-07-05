@@ -332,4 +332,4 @@ After our scan is complete, we see the `wn10-au-000500` STIG has been fixed agai
 
 ## Conclusion
 
-STIGs support the hardening of systems and maintain federal compliance standards. Vulnerability scanners like Tenable can be used to automate the discovery of STIGs and confirm that they have been remediated. STIGs can be remediated manually, but the best method for remediating STIGs at scale is by utilizing an automated method, such as PowerShell scripting.
+STIGs support the hardening of systems and maintain federal compliance standards. Vulnerability scanners like Tenable can be used to automate the discovery of STIGs and confirm their remediation. STIGs can be remediated manually, but the best method for remediating STIGs at scale is by utilizing an automated method, such as PowerShell scripting.
