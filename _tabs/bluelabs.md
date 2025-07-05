@@ -13,8 +13,8 @@ This section of my portfolio highlights completed labs and exercises related to 
 
 ## 🛡️ Vulnerability Management Scenarios
 
-- [Vulnerability Management – Windows](/posts/vuln-windows)
-- [Vulnerability Management - Linux](/posts/vuln-linux)
+- [Programmatic Remediation - Windows](/posts/vuln-windows)
+- [Programmatic Remediation - Linux](/posts/vuln-linux)
 - [Applying STIGs with PowerShell](/posts/applying-stigs-with-powershell)
 
 ---
