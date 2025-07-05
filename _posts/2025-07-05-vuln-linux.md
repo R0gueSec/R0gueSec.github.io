@@ -5,8 +5,6 @@ categories: [Blue Team, Vulnerability Management]
 tags: [liunx, azure, tenable, bash, openssl, telnet]
 ---
 
-# Programmatic Remediation in Linux
-
 # Overview
 
 > In this lab, I will demonstrate how to establish a baseline scan of a Linux machine, intentionally create vulnerabilities, and then automate the remediation of those vulnerabilities using bash scripts.
