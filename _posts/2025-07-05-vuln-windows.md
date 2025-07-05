@@ -5,9 +5,6 @@ categories: [Blue Team, Threat Hunting, Incident Response]
 tags: [windows, sentinel, threathunting, edr, msdefenderforendpoint, mssentinel, azure, networkslowdown]
 ---
 
-
-# Programmatic Remediation in Windows
-
 # Overview
 
 > In this lab, I will cover how to use Tenable to scan a Windows 10 machine, then intentionally create vulnerabilities, automate the remediation of those vulnerabilities using PowerShell scripts, and then confirming the remediations by scanning the machine with Tenable again.
