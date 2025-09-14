@@ -22,6 +22,7 @@ I’m currently building **roguesec.net**, a portfolio and knowledge-sharing sit
 
 ## 📜 Certifications
 
+- **Offensive Security Certified Professional (OSCP / OSCP+)**, OffSec - *Sept 2025*
 - **Splunk Core Certified User**, Splunk — *May 2025*
 - **Microsoft Certified: Azure Fundamentals (AZ-900)**, Microsoft — *Apr 2025*
 - **Blue Team Level 1 (BTL1) with Gold Coin Honors**, Security Blue Team — *Feb 2025*
